@@ -1,0 +1,28 @@
+test_active_all_worlds (test_m1_m7.ExperimentTests.test_active_all_worlds) ... ok
+test_bad_source_rejected (test_m1_m7.ExperimentTests.test_bad_source_rejected) ... ok
+test_certificate_matches_independent_simulator (test_m1_m7.ExperimentTests.test_certificate_matches_independent_simulator) ... ok
+test_empty_scope_retains_all_scope_forgets (test_m1_m7.ExperimentTests.test_empty_scope_retains_all_scope_forgets) ... ok
+test_external_cancellation_counterexample (test_m1_m7.ExperimentTests.test_external_cancellation_counterexample) ... ok
+test_failed_validation_rolls_back (test_m1_m7.ExperimentTests.test_failed_validation_rolls_back) ... ok
+test_four_correct_repair_classes (test_m1_m7.ExperimentTests.test_four_correct_repair_classes) ... ok
+test_full_identification_all_worlds (test_m1_m7.ExperimentTests.test_full_identification_all_worlds) ... ok
+test_future_evidence_rejected (test_m1_m7.ExperimentTests.test_future_evidence_rejected) ... ok
+test_future_reference_rejected (test_m1_m7.ExperimentTests.test_future_reference_rejected) ... ok
+test_inconsistent_evidence_empty (test_m1_m7.ExperimentTests.test_inconsistent_evidence_empty) ... ok
+test_independent_world_model_all_queries (test_m1_m7.ExperimentTests.test_independent_world_model_all_queries) ... ok
+test_invalid_inputs (test_m1_m7.ExperimentTests.test_invalid_inputs) ... ok
+test_lift_preserves_truth_for_all_single_changes (test_m1_m7.ExperimentTests.test_lift_preserves_truth_for_all_single_changes) ... ok
+test_no_hidden_parameters_in_diagnoser (test_m1_m7.ExperimentTests.test_no_hidden_parameters_in_diagnoser) ... ok
+test_observer_revisits_own_review (test_m1_m7.ExperimentTests.test_observer_revisits_own_review) ... ok
+test_outside_family_is_counterexample (test_m1_m7.ExperimentTests.test_outside_family_is_counterexample) ... ok
+test_passive_abstains (test_m1_m7.ExperimentTests.test_passive_abstains) ... ok
+test_plain_log_exact_equivalence (test_m1_m7.ExperimentTests.test_plain_log_exact_equivalence) ... ok
+test_random_is_reproducible_and_bounded (test_m1_m7.ExperimentTests.test_random_is_reproducible_and_bounded) ... ok
+test_real_adoption_and_noop (test_m1_m7.ExperimentTests.test_real_adoption_and_noop) ... ok
+test_record_is_frozen_snapshot (test_m1_m7.ExperimentTests.test_record_is_frozen_snapshot) ... ok
+test_wrong_version_rejected (test_m1_m7.ExperimentTests.test_wrong_version_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 23 tests in 0.372s
+
+OK
