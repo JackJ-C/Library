@@ -1,304 +1,90 @@
-# Library
+# Library：希珀塞莱妮娅的「图书馆」实验
 
-> Experimental workspace for the **Library hypothesis** in Hyper-Selenia.
+> 让变化中的系统重新观察自己的历史，但不把「看过历史」冒充「理解了自己」。
 >
-> This repository is intentionally isolated. Research, prototypes, notes, tests, and commits produced for this line of work belong here and nowhere else.
+> 实验边界：仅限 `JackJ-C/Library`。不读取、修改或推送其他仓库；不连接希珀塞莱妮娅主系统。
 
-## 0. Research boundary
+## 我们究竟在研究什么？
 
-This repository studies one question:
+你用《星际穿越》中库珀接触不同时刻的「图书馆」表达一个想法：系统能够进入不同切片，观察过去的自己和整个系统。此前的「德罗斯特效应」是表达这一想法的近似方式，不是另一套目标，也不是 Worker 之间的通信算法。
 
-> **Can an evolving system improve itself by repeatedly observing structured traces of its own past perception, action, internal state, and consequences—without reducing those traces to a single scalar memory or a fixed external training signal?**
+希珀塞莱妮娅希望自行演化。这里研究其中一种可能的路径：**它能否通过重新检查自己的行为、判断与后果，找出有证据支持的不足，再验证修改是否真的有效？**
 
-The working name **Library** comes from a spatial intuition: a system should be able to revisit multiple slices of its own history as inspectable objects, rather than merely carry a compressed residue of the past forward.
+我们不预先声称所有进化都必须理解自己，也不声称有图书馆就能产生自我意识。
 
-The cinematic image of Cooper observing different moments through the bookshelf in *Interstellar* is an analogy, not a mechanism. The earlier “Droste effect” description points to the same intuition: **the observer can inspect a representation in which the observer and the observed system recursively appear across slices**.
+## 图书馆不是一张总成绩单
 
-Hyper-Selenia gives this intuition a concrete purpose. If the system is expected to evolve itself, then it must have some way to discover:
+假设两个 Worker 的成功率都是 50%。一个总在左侧任务失败，另一个总在右侧任务失败。只留下「50%」，无法告诉我们应该修哪里；保留任务、行动与结果之间的关系，才有机会区分。
 
-- what it did,
-- what it believed it was doing,
-- what actually changed,
-- which limitations persisted,
-- which changes improved the system,
-- and whether the current observer is meaningfully continuous with the historical actor being inspected.
+但这不意味着数据库、序列存储或加权表示天然做不到。**关键是保留了什么可区分的信息，以及系统怎样使用它，而不是存储介质叫什么。**
 
-The Library is proposed as the substrate for that process.
+我们暂时把 Library 定义成四项能力的组合：
 
----
+1. **留证据**：保存可定位、有来源和可见时间的历史切片。
+2. **再观察**：后来以明确的问题重新读取切片；新判断不能覆盖旧判断。
+3. **查不足**：把疑似不足写成可反驳的证据对象，而不是一句「我觉得自己变强了」。
+4. **检验改变**：比较旧版和新版，同时保留外部冻结的评价标准、未参与选择的测试和回归检查。
 
-## 1. Core distinction: memory is not yet a Library
+这是本项目的工作定义，不是给整个学界重新定义记忆。
 
-A sequence of stored states is only a history.
+## 两个初始概念
 
-A database of events is only an archive.
+### 再观察差异
 
-A weighted summary of the past is only a compressed influence.
+旧版在当时给出判断，后来重新观察时可能得到不同判断。我们暂称其差别为「再观察差异」（Re-observation Gap）。
 
-For this project, a structure deserves the name **Library** only if the current system can actively revisit historical slices and perform new judgments over them.
+**差异不是进步分数。** 后来可能知道了更多，也可能自己变差了，还可能问题或评价标准已经换了。若不能控制这些因素，就应标注「不可直接比较」，不能硬算成进步。
 
-A minimal slice may be written as
+M0 将用「判断版本 × 证据视野」的四格对照来拆开这些来源，具体定义见规格书。
 
-\[
-L_t = (O_t, A_t, I_t, E_t, C_t)
-\]
+### 不足对象
 
-where:
+一项疑似不足至少应说明：针对谁和哪个版本、涉及哪些情境、依据哪些切片、还有什么竞争解释、下一次怎样验证、什么结果会推翻它。
 
-- \(O_t\): what was observed,
-- \(A_t\): what action or intervention was applied,
-- \(I_t\): inspectable internal state relevant to that decision,
-- \(E_t\): resulting external/system change,
-- \(C_t\): contextual relations needed to interpret the slice.
+「Worker 在左侧任务经常失败」是一个可调查的对象；「Worker 很笨」不是。即使失败确实存在，其原因也可能是环境、通信、Queen 的干预，或记录本身不可靠。
 
-This tuple is deliberately provisional. The project should earn its representation experimentally rather than inherit one by convention.
+## Queen 与 Worker：读取不等于亲历
 
-The important property is not the tuple itself. It is **re-observability**:
+Worker 的切片属于 Worker 的观察来源。Queen 读取它，只能形成「我现在读到了 Worker 的经历」，不能把来源改成「当时是我经历的」。
 
-\[
-\text{current system} \rightarrow L_t \rightarrow \text{new judgment at } t' > t
-\]
+Queen 自己的观察、选择切片、判断与干预，也应留下新的切片。因此，之后的 Queen 可以检查：**过去那个作出判断和施加影响的过程，与现在的我有什么连续关系？**
 
-The judgment made at \(t'\) is allowed to disagree with the judgment originally made at \(t\).
+版本沿袭、行动来源、行为相似，是不同问题。相同名字、相同代码或复制同一份记忆，都不足以单独回答「是同一个我吗」。M0 只定义可检验的操作性连续关系，不宣称解决哲学身份。
 
-That disagreement is not noise. It is one of the primary signals we want to study.
+## 为什么叫「空间」？
 
----
+这里先保留四个直觉：切片能被单独访问；关系能被遍历；不同视角不必立即压成一个数；对旧观察的再观察也能成为新切片。
 
-## 2. The first original hypothesis: Re-observation Gap
+这不要求实现三维房间、复制无限世界或使用无限内存。当前用有向关系表示它，是最小实验表示，不是断言真实几何一定无用。几何布局是否带来额外优势，需要另做实验。
 
-We define a provisional quantity called the **Re-observation Gap**.
+历史记录只追加，不被新解释改写。新切片可引用旧切片，不能引用尚不存在的未来切片。每次访问有深度、数量和字节预算；触及预算必须显式报告截断。
 
-Suppose the historical system at time \(t\) made an internal judgment \(J_t\) about a situation. At a later time \(t'\), the current system revisits the same slice and produces \(J_{t' \leftarrow t}\).
+## 路线与停止条件
 
-Then:
+| 阶段 | 要回答的问题 | 完成标准 |
+| --- | --- | --- |
+| M0：形式化 | 这些词究竟指什么，什么情况算反例？ | 中文规格、推导、反例、可运行一致性检查及验收报告 |
+| M1：微型图书馆 | 不用大模型能否形成留痕—读取—再判断过程？ | 确定性小世界与完整证据轨迹 |
+| M2：不足发现 | 能否发现未直接告知名称的失败关系？ | 隐藏故障任务、强基线、来源消融与不确定性报告 |
+| M3：有界自修改 | 修改究竟修复了什么，又损害了什么？ | 未见测试、回归检查、冻结评价与拒绝/回退机制 |
+| M4：多主体归因 | 是 Worker、通信、Queen 还是环境出了问题？ | 受控干预下的归因测试，不能识别时允许拒答 |
+| M5：变化中的连续性 | 哪些历史经验仍适用于当前系统？ | 多版本迁移、分叉与历史适用性测试 |
 
-\[
-G(t', t) = D(J_t, J_{t' \leftarrow t})
-\]
+**本轮停在 M0。M0 通过不代表 M1–M5 已经完成，更不代表自主进化得到验证。**
 
-where \(D\) is not assumed to be a conventional embedding distance. It may eventually be structural, behavioral, causal, or task-specific.
+当前状态：M0 验收合同已定义，检查进行中。最终状态以 `docs/M0_REPORT.md` 为准。
 
-The hypothesis is:
+## 阅读入口
 
-> **Persistent, structured re-observation gaps can reveal deficiencies that are invisible to a system that only optimizes current reward or carries forward compressed memory.**
+- [M0 验收合同](docs/M0_CONTRACT.md)：先明确怎样才算完成。
+- `docs/M0_SPEC.md`：十项定义、推导、例子与边界。
+- `docs/M0_REPORT.md`：实际运行结果、完成项和未完成项。
+- `docs/RELATED_WORK.md`：已有工作的交集；不把换名当原创。
 
-A large gap alone does not mean improvement. The current observer may be worse than the historical one. Therefore the gap must be evaluated against consequences.
+## 不做什么
 
-This immediately creates a three-way relation:
+不预设 Transformer 或 LLM；不把反复自述当成自我认识；不把一切改善都归功于 Library；不把单个总分当作完整解释；不允许候选系统改写评价标准或历史证据；不向 Queen 偷渡隐藏故障标签。
 
-\[
-\text{historical judgment} \leftrightarrow \text{current re-judgment} \leftrightarrow \text{observed consequence}
-\]
+可以比较既有方法，但不直接搬来整套认知架构再改名。「再观察差异」「不足对象」目前是工作术语，尚未完成系统性原创性审查。
 
-The Library exists to keep all three inspectable.
-
----
-
-## 3. The second hypothesis: self-evolution requires an inspectable deficit
-
-A system cannot deliberately repair an unknown deficiency merely because its global score is low.
-
-For self-evolution, we propose a stronger intermediate object:
-
-\[
-\Delta_k = \text{a locally inspectable mismatch between expected capability and evidenced capability}
-\]
-
-We will call this a **Deficit Object**.
-
-A Deficit Object is not simply an error label. It should contain enough evidence for the system to later ask:
-
-1. What did I expect myself to be able to do?
-2. What evidence contradicted that expectation?
-3. Was the failure caused by perception, action, coordination, memory, inference, or an invalid self-model?
-4. Has a later modification actually removed the deficiency?
-5. Did the repair introduce another deficiency elsewhere?
-
-The working evolutionary loop becomes:
-
-\[
-\text{act} \rightarrow \text{leave slice} \rightarrow \text{re-observe} \rightarrow \text{construct deficit} \rightarrow \text{modify} \rightarrow \text{re-test against Library}
-\]
-
-This is intentionally different from:
-
-\[
-\text{act} \rightarrow \text{reward} \rightarrow \text{update}
-\]
-
-The project will test whether that difference is real and useful rather than assume it.
-
----
-
-## 4. Worker / Queen interpretation
-
-Hyper-Selenia contains a Worker/Queen distinction.
-
-The Library must preserve that distinction.
-
-A Worker slice is evidence of **what the Worker experienced**. It must not automatically become a first-person Queen memory.
-
-The Queen may inspect Worker slices, Queen slices, and relations between them. Her task is not merely to aggregate experience, but to form and revise judgments about:
-
-- the capabilities of individual Workers,
-- interactions among Workers,
-- her own interventions,
-- system-level consequences,
-- and the relation between historical actors and the present system.
-
-This creates an important constraint:
-
-> **Access does not imply identity.**
-
-If the Queen can read a Worker's history, that does not mean the Queen experienced it.
-
-This distinction will matter when we later study continuity of self, attribution of causality, and responsibility for system changes.
-
----
-
-## 5. The Library is spatial in organization, not necessarily in storage
-
-Earlier discussion used “slices”, “small cubes”, and the Droste effect. These are useful intuitions, but the implementation does not need literal 3D storage.
-
-The spatial requirement is conceptual:
-
-- slices remain individually addressable,
-- relations between slices can be traversed,
-- multiple historical viewpoints can coexist without being collapsed immediately,
-- the current observer can move between local and system-level views,
-- and a slice may itself contain pointers to observations of earlier slices.
-
-This last property creates controlled recursion:
-
-\[
-L_{t_3} \rightarrow \text{observation of } L_{t_2} \rightarrow \text{observation of } L_{t_1}
-\]
-
-The recursion is valuable only if it changes what can be tested. Infinite self-reference by itself is not intelligence.
-
----
-
-## 6. What would count as progress?
-
-The project will not treat elegant self-description as success.
-
-A meaningful milestone requires a system to demonstrate at least the following sequence:
-
-1. **Leave evidence** of its own behavior in inspectable slices.
-2. **Revisit** selected slices later without receiving the original judgment as an unquestionable truth.
-3. **Detect a deficiency** from relations across slices.
-4. **Propose a modification** targeted at that deficiency.
-5. **Apply the modification** inside a bounded experimental environment.
-6. **Re-test historical and novel cases.**
-7. **Reject or retain the modification** using evidence generated by the Library.
-
-The strongest version would additionally show that the system can discover a deficiency that was **not explicitly named by the experiment designer**.
-
----
-
-## 7. Initial milestones
-
-### M0 — Formal vocabulary
-
-Define minimal, falsifiable meanings for:
-
-- Slice
-- Observer
-- Actor
-- Re-observation
-- Re-observation Gap
-- Deficit Object
-- Modification
-- Continuity
-- Attribution
-- Library traversal
-
-Deliverable: a short specification with examples and counterexamples.
-
-### M1 — Toy Library
-
-Build a tiny deterministic world in which an agent acts, leaves slices, and can later inspect them.
-
-No LLM is required.
-
-Goal: prove that the Library mechanics are separable from language-model behavior.
-
-### M2 — Blind deficiency discovery
-
-Construct failures that are visible only when multiple slices are compared.
-
-The current agent must identify the failing relation without being directly told the failure category.
-
-### M3 — Bounded self-modification
-
-Permit a small set of mutable mechanisms or genomes.
-
-A detected Deficit Object may trigger a proposed modification. The modified system must be evaluated against historical slices and held-out situations.
-
-### M4 — Queen / Worker attribution
-
-Introduce multiple Workers and a Queen.
-
-Test whether the Queen can distinguish:
-
-- Worker-local failure,
-- communication failure,
-- Queen intervention failure,
-- and system-level failure.
-
-### M5 — Continuity under change
-
-After several accepted modifications, test whether the current Queen can make useful judgments about the relation between:
-
-- an old Worker,
-- an old Queen state,
-- the current Queen,
-- and the current system.
-
-The objective is not philosophical declaration. It is operational continuity: whether attribution across change improves future decisions.
-
----
-
-## 8. Anti-goals
-
-At this stage we explicitly avoid:
-
-- assuming that a Transformer or LLM is required,
-- equating larger memory with better self-understanding,
-- importing a complete existing cognitive architecture and renaming its modules,
-- treating vector similarity as self-recognition by default,
-- treating recursive self-reference as sufficient evidence of self-awareness,
-- optimizing a single scalar and calling the result self-evolution,
-- giving the Queen omniscient ground-truth labels during experiments.
-
-Existing theories may later be used as comparison baselines. They should not determine the architecture before the Library earns its own shape experimentally.
-
----
-
-## 9. Immediate research questions
-
-The next work should answer these experimentally rather than rhetorically:
-
-1. What is the smallest slice that still permits useful re-observation?
-2. Which information must remain raw, and which may be compressed?
-3. How does the current system choose **which** past slice to inspect?
-4. Can a useful deficit emerge from disagreement among several slices rather than one explicit error?
-5. How can the system distinguish “I changed” from “the environment changed”?
-6. How can Queen attribute an outcome when several Workers contributed?
-7. What prevents repeated self-observation from becoming an endless recursive loop?
-8. What should be immutable so that self-modification remains testable?
-9. Can a modification be locally beneficial but globally destructive, and can the Library expose that fact?
-10. At what point does a historical slice cease to be evidence about the current system?
-
----
-
-## 10. Working thesis
-
-The initial thesis of this repository is:
-
-> **Self-evolution requires more than memory and more than reward. It requires a revisitable structure in which a changing system can observe evidence of what earlier versions perceived, did, expected, and caused; detect structured deficits from disagreement across those slices; and test modifications against both its history and new experience.**
-
-The Library is the experimental name for that structure.
-
-This thesis is provisional. The repository exists to try to break it.
+**当前主张是一个可失败的研究假说：保留可再观察的关系证据，可能帮助系统更准确地定位并修复自身不足。**
