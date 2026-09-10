@@ -1,0 +1,9 @@
+{
+  "verified": true,
+  "result_sha256": "d95e9f8eebac3587a3b1ea8b1f25757e8be1ae4998950cb251235214b5b7b1b3",
+  "unit_tests_recorded": 29,
+  "single_unit_cases": 504,
+  "program_tasks": 24,
+  "integration_cases": 96,
+  "note": "核对档案和独立表达式重放；不是重跑全部实验。"
+}
