@@ -1,0 +1,24 @@
+[
+  {
+    "phase": "C",
+    "status": "VERIFIED",
+    "raw_sha256": "3e0ad06ebfea19fb0138171def3a01c3b0b08f43348d1c9dc171ae4c0e60aa51",
+    "experience_slices": 11847,
+    "reinspections": 807,
+    "online_actions_replayed": 11847,
+    "future_outputs_replayed": 11604,
+    "attributions_replayed": 1152,
+    "trajectories_verified": 192
+  },
+  {
+    "phase": "D",
+    "status": "VERIFIED",
+    "raw_sha256": "40be758f02bf1a233331dde7ec3742694f2bcb4a811386c884dc914e992367e1",
+    "experience_slices": 11855,
+    "reinspections": 822,
+    "online_actions_replayed": 11855,
+    "future_outputs_replayed": 11784,
+    "attributions_replayed": 1152,
+    "trajectories_verified": 192
+  }
+]
