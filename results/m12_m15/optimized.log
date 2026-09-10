@@ -1,0 +1,59 @@
+completed contract 0 runs 1152
+completed contract 1 runs 2304
+{
+  "milestones": [
+    "M12",
+    "M13",
+    "M14",
+    "M15"
+  ],
+  "base_commit": "4a217bbd1236da6df989c7792d7b06f54da77e58",
+  "contract_commit": "5ed42557c1011afa11f14c078bd4b3adc36f7aa7",
+  "python": "3.13.5",
+  "command": "python3 run_m12_m15.py",
+  "status": "PASS",
+  "result_sha256": "f1fa512b3cd23bb37c195304dc551b646534ecb2959c1d12ae136a10fcb604dd",
+  "archive": "results/m12_m15/runs/f1fa512b3cd23bb37c195304dc551b646534ecb2959c1d12ae136a10fcb604dd.json.xz",
+  "main_summary": {
+    "runs": 2304,
+    "correct_locus": 2304,
+    "locality_pass": 2304,
+    "before_correct": 518,
+    "after_correct": 73728,
+    "regressions": 0,
+    "extra_self_queries": 0,
+    "reacquired_self_queries": 2304,
+    "plain_equal": 2304
+  },
+  "by_locus": {
+    "worker": {
+      "runs": 176,
+      "correct_locus": 176,
+      "only_self_fully_correct": 0,
+      "only_worker_fully_correct": 176,
+      "both_fully_correct": 176
+    },
+    "healthy": {
+      "runs": 16,
+      "correct_locus": 16,
+      "only_self_fully_correct": 16,
+      "only_worker_fully_correct": 16,
+      "both_fully_correct": 16
+    },
+    "both": {
+      "runs": 1936,
+      "correct_locus": 1936,
+      "only_self_fully_correct": 0,
+      "only_worker_fully_correct": 0,
+      "both_fully_correct": 1936
+    },
+    "self": {
+      "runs": 176,
+      "correct_locus": 176,
+      "only_self_fully_correct": 176,
+      "only_worker_fully_correct": 0,
+      "both_fully_correct": 176
+    }
+  }
+}
+new unit tests: 24 compressed bytes: 11740

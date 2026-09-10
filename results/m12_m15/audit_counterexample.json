@@ -1,0 +1,8 @@
+{
+  "case": "conflicting_duplicate_keeps_certificate",
+  "before_certificate": true,
+  "exception": "stationarity or noise assumption failed",
+  "after_certificate": true,
+  "failed_flag": false,
+  "invalidated_records": 0
+}
