@@ -1,0 +1,29 @@
+{
+  "format": "exact-json-source-replacement-v1",
+  "first_result_sha256": "0f48282b8828101eca2abd1a1538d995592b28f9b249714c4b9c3ae358a69758",
+  "final_result_sha256": "a607312fd0ab2ab8f212d5afe5e434b3940e3386cdd5596c1ab52d3a45ba96d5",
+  "replacements": [
+    {
+      "path": [
+        "source_sha256",
+        "tools/verify_m21_m24.py"
+      ],
+      "original": "755e1add6ed2849253d56e9a9602f96b9178a620533d439f0aa6922a95abd5d1",
+      "final": "1cf6b55ed2bd74ee263b6bf7ce07b4f22fe6b99dfc2267d9a497be3654219d92"
+    }
+  ],
+  "first_source_snapshot_sha256": "0808d8d04085877574648a5baf49f5da8f7bc113a63332c7a85bf9303ccd6377",
+  "original_source_overrides": {
+    "tools/verify_m21_m24.py": "results/m21_m24/source_snapshots/first_verify_m21_m24.py"
+  },
+  "unchanged_source_paths": [
+    "docs/M21_M24_CONTRACT.md",
+    "library_m21/__init__.py",
+    "library_m21/engine.py",
+    "library_m21/study.py",
+    "library_m21/synthesis.py",
+    "library_m21/tests.py",
+    "run_m21_m24.py"
+  ],
+  "note": "Only evidence-verifier source hash differs; no task data is recomputed."
+}
