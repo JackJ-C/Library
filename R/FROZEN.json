@@ -1,0 +1,22 @@
+{
+  "scope": "JackJ-C/Library R branch; R/ only",
+  "date": "2026-09-12",
+  "base": "52df417978d5e6525d1fbe8558720c02f48d5549",
+  "contract_commit": "1742ad5dfe4148cd05fc9b3bb8f9df6401c309b9",
+  "development": [0, 1],
+  "A": [5100, 5101, 5102, 5103, 5104, 5105, 5106, 5107],
+  "B": [6100, 6101, 6102, 6103, 6104, 6105, 6106, 6107],
+  "sources": {
+    "src/__init__.py": "feb0a1fc37e93efc707b0cef52c7e285b5d7755f9a6905445dd2ba7d66d84123",
+    "src/core.py": "efa0fb5954aea533ec95bc95933f83c9c4b92fa5f55ef5ca53d00041986a01c0",
+    "src/study.py": "5ea5273ea63a81dcbb236840912adbb9214e7f6b5ca5719f857f838542d9e6f4",
+    "tests/test_r.py": "5f7e44f57d0a47450c4af3d5abc67de1a486101dc41ca14a459f6a0f9e148050",
+    "vendor/library_m54/__init__.py": "61ef8a2d3836201838a692cede0585d1cb3ec3f148e28cb03a9ac072ddc14914",
+    "vendor/library_m54/grammar.py": "3569398bfa0ea32f523ca32bfc850113c83c1daf5151bdd271bdfe0378e87d0f",
+    "vendor/library_m54/queen.py": "9780b02e2c96ccf7e788da685da16670f453649fc68ffce38fe54329d406fe6d",
+    "vendor/library_m54/world.py": "e5d903b41f7e8dbfb4f6cea7b058d67bf05d72336988c998407a4e003010e812",
+    "vendor/library_m8/__init__.py": "00cf93c8f78a265743ebba78034d76dbfd90da89754699b944a367166fd08775",
+    "vendor/library_m8/core.py": "fc1aca53c55dd962693616ae8055e92a80ccb02d21792e5f89be55ade5051952",
+    "run.py": "925e3fa07028a8069cf40e05b61db70733585dcc84877613b97d615ad14b78cb"
+  }
+}
