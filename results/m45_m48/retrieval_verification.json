@@ -1,0 +1,18 @@
+[
+  {
+    "phase": "C",
+    "status": "VERIFIED",
+    "trajectories": 80,
+    "future_tasks_replayed": 800,
+    "genuinely_older_groups_replayed": 48,
+    "sha256": "9101d380e5b4d6b1f588f2c5529ac29e0234e38619a73b9f566f1bd4139310e8"
+  },
+  {
+    "phase": "D",
+    "status": "VERIFIED",
+    "trajectories": 80,
+    "future_tasks_replayed": 800,
+    "genuinely_older_groups_replayed": 48,
+    "sha256": "6d75b5613a54ba0806c16c90591eaf8810d4f6784c8881e92d6542a0652d6be3"
+  }
+]

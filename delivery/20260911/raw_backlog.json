@@ -1,0 +1,86 @@
+{
+  "status": "NOT_BACKFILLED_IN_THIS_COMMIT",
+  "scope": "13 complete raw XZ files available in the current M45-M48 package, including M37-M44 inherited results; they are not contained in the text evidence bundle",
+  "file_count": 13,
+  "compressed_bytes": 3517468,
+  "files": [
+    {
+      "path": "results/m37_m40/runs/48f212b09832429fd2fdd8c6fb212a150a65deae8424e1320d1c998435645045.json.xz",
+      "size": 460156,
+      "sha": "d90d4cf2fb6b0f8501c96a19b9b0c348116f9590",
+      "sha256": "9286d45d28e77bce327d1dccdc009fe4740743cc97ff23a7df3480d894817c40"
+    },
+    {
+      "path": "results/m37_m40/runs/ce0c7c694609c7a14709d7a7d3996295520e8b20f21de5553f345d68931937ba.json.xz",
+      "size": 460560,
+      "sha": "f4ebcd9fa62ba1d61d8233629030ab77dc07f4b1",
+      "sha256": "f8be43e47c18744be454c7f65db7e9b12a469e2709d716e58a385f87a9dec6e7"
+    },
+    {
+      "path": "results/m37_m40/runs/d3236c85ba903d8d462f6f63c37de0481b119c69b551f76223a0dcfdc31ab8f0.json.xz",
+      "size": 121920,
+      "sha": "06616fb83abefafbfce2ecb3f5fac71ef92872ee",
+      "sha256": "07f076f5809b7c11b7418ef00f07834ca93d094bfdb5500336067b464e3d7891"
+    },
+    {
+      "path": "results/m41_m44/runs/617292656e389179eb5831d661fec2f0742a2b630af60683c1d51b74d0f50083.json.xz",
+      "size": 472048,
+      "sha": "a38d829b05dd3aaf04c79deaecaae05faf64650e",
+      "sha256": "3493e3a77a740527b84993c4d7fd55ca060bd384da4b574013fc3b8412b90771"
+    },
+    {
+      "path": "results/m41_m44/runs/9c8aae96cac5d1c6050e3c05a8dcd277a7691e0a1bffba351f1f99481a75ff21.json.xz",
+      "size": 126572,
+      "sha": "64d57db4322fef04ef48fe7a3ab61976b0bdb010",
+      "sha256": "7c3abae4c9b4980760316b488d36bb06e05fc6bd276dfda5dbbcbd9e400b541e"
+    },
+    {
+      "path": "results/m41_m44/runs/d923c03ef57795015976265940e168dca20b3ba47a5ea944b370bb81287c4b42.json.xz",
+      "size": 472836,
+      "sha": "29908e4e79ebbd929bdce6c4b749b9d5b2162b56",
+      "sha256": "6264b6a3d6753a397e6890907d3f4d84b78d4c8744b6f87db2ac27031e979f0d"
+    },
+    {
+      "path": "results/m45_m48/runs/24775422d6a7c940efc883d4f5e9cf7407bf36b107b296154ee73929f8cef39c.json.xz",
+      "size": 512816,
+      "sha": "8685fa7eb34a8b6b10f4658102e7803811ef76aa",
+      "sha256": "83d4027d37b29c8504deae7e0c404347448e4ab735047d176890049b09a9cb38"
+    },
+    {
+      "path": "results/m45_m48/runs/44e1a8e760f622b07a54d6476997e265712d29b274401fd4c3d5750320f87af1.json.xz",
+      "size": 12964,
+      "sha": "d16f397e9d72ee898fe69c2d88b3c3e1aa34b6de",
+      "sha256": "58d7226dd40b27d30f2fcbfe717bb6cc760380621e966d5fca6ea8e0dffd487f"
+    },
+    {
+      "path": "results/m45_m48/runs/5fd900ffddfef4ddfa22a0a6225612b768a986268c6689f678ddb9df0d611b3e.json.xz",
+      "size": 146104,
+      "sha": "2af7200a5088b5d45c0528641cbea0248ce49ce9",
+      "sha256": "5ed60964f5376b2be66f88163b579da0b830d97c60b3d54470a2efa97c582e88"
+    },
+    {
+      "path": "results/m45_m48/runs/6d75b5613a54ba0806c16c90591eaf8810d4f6784c8881e92d6542a0652d6be3.json.xz",
+      "size": 37072,
+      "sha": "92de875961cbf27e75ff83692fb96d035f57fb16",
+      "sha256": "8f6b906baf0bcce95c5c674abfa580d19c35d97a2d0d402e21a384e072579e47"
+    },
+    {
+      "path": "results/m45_m48/runs/7b59f5115a61e0af7495fdff6264334e4d1f10f2beec00d52ad11e5ad9d9421d.json.xz",
+      "size": 512436,
+      "sha": "d6a2f6038fea1d7b946b1fe71e59204fbfdfda16",
+      "sha256": "0ecc552fa055c20375fbc469184fed044bee87391cd481d890d033d7988bcbc8"
+    },
+    {
+      "path": "results/m45_m48/runs/8d43b5d18f4af4cb822f7f8a710f71849333c1b13a6f6f6b764ddd83bf243a07.json.xz",
+      "size": 145676,
+      "sha": "61c9b874ce3e6826641d479b59cee192788671f7",
+      "sha256": "56b6c22f466920fcefea506544de7db9ba1a2d1fd1e5cf37900d801a2d068c67"
+    },
+    {
+      "path": "results/m45_m48/runs/9101d380e5b4d6b1f588f2c5529ac29e0234e38619a73b9f566f1bd4139310e8.json.xz",
+      "size": 36308,
+      "sha": "a133fc6f092f77dbb64736f462cbc2d2c1d9414b",
+      "sha256": "4416726e65c5ab235491965c849eb6d9a43ba9f659f936c6ccba962bc82f7e13"
+    }
+  ]
+}
