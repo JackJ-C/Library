@@ -1,0 +1,2 @@
+m7 {"certificate_matches_exhaustion": 256, "certified_accept": 112, "certified_nonzero_change": 48, "internal_perfect": 256, "natural_mean_better": 48, "natural_mean_unchanged": 160, "natural_mean_worse": 48, "no_feasible_correction": 144, "some_natural_case_regresses": 144, "worlds": 256}
+archive 3a4ee0892983324963ff36777cd811e14b0634218605d2224c050663793dfc95 compressed bytes 1272

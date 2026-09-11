@@ -1,0 +1,34 @@
+test_changed_binding_rejected (library_m21.tests.StateTests.test_changed_binding_rejected) ... ok
+test_contradiction_fails_closed (library_m21.tests.StateTests.test_contradiction_fails_closed) ... ok
+test_duplicate_is_not_new_evidence (library_m21.tests.StateTests.test_duplicate_is_not_new_evidence) ... ok
+test_latent_unseen_branch_failure_is_real (library_m21.tests.StateTests.test_latent_unseen_branch_failure_is_real) ... ok
+test_new_evidence_revokes_old_permission (library_m21.tests.StateTests.test_new_evidence_revokes_old_permission) ... ok
+test_same_instance_real_deployment (library_m21.tests.StateTests.test_same_instance_real_deployment) ... ok
+test_unsupported_noise_not_infinite_loop (library_m21.tests.StateTests.test_unsupported_noise_not_infinite_loop) ... ok
+test_compiler_rejects_arbitrary_code (library_m21.tests.SynthesisTests.test_compiler_rejects_arbitrary_code) ... ok
+test_early_stopping_does_not_certify (library_m21.tests.SynthesisTests.test_early_stopping_does_not_certify) ... ok
+test_empty_examples_not_permission (library_m21.tests.SynthesisTests.test_empty_examples_not_permission) ... ok
+test_examples_inconsistent_not_exhausted (library_m21.tests.SynthesisTests.test_examples_inconsistent_not_exhausted) ... ok
+test_final_domain_is_disjoint (library_m21.tests.SynthesisTests.test_final_domain_is_disjoint) ... ok
+test_invalid_inputs_rejected (library_m21.tests.SynthesisTests.test_invalid_inputs_rejected) ... ok
+test_later_candidates_retain_all_counterexamples (library_m21.tests.SynthesisTests.test_later_candidates_retain_all_counterexamples) ... ok
+test_literal_guard_lowering (library_m21.tests.SynthesisTests.test_literal_guard_lowering) ... ok
+test_low_fuel_is_not_unrepresentability (library_m21.tests.SynthesisTests.test_low_fuel_is_not_unrepresentability) ... ok
+test_macro_expansion_is_real_composition (library_m21.tests.SynthesisTests.test_macro_expansion_is_real_composition) ... ok
+test_macros_not_preloaded (library_m21.tests.SynthesisTests.test_macros_not_preloaded) ... ok
+test_no_target_name_in_search_signature (library_m21.tests.SynthesisTests.test_no_target_name_in_search_signature) ... ok
+test_node_bound_is_distinct_from_fuel (library_m21.tests.SynthesisTests.test_node_bound_is_distinct_from_fuel) ... ok
+test_normalization_uses_programs_not_targets (library_m21.tests.SynthesisTests.test_normalization_uses_programs_not_targets) ... ok
+test_old_equivalence_splits (library_m21.tests.SynthesisTests.test_old_equivalence_splits) ... ok
+test_plan_cannot_drop_or_duplicate_branches (library_m21.tests.SynthesisTests.test_plan_cannot_drop_or_duplicate_branches) ... ok
+test_plan_compiles_and_rebinds_actual_search (library_m21.tests.SynthesisTests.test_plan_compiles_and_rebinds_actual_search) ... ok
+test_plan_no_arbitrary_source (library_m21.tests.SynthesisTests.test_plan_no_arbitrary_source) ... ok
+test_plan_uses_costs_not_names (library_m21.tests.SynthesisTests.test_plan_uses_costs_not_names) ... ok
+test_rejected_course_program_not_promoted (library_m21.tests.SynthesisTests.test_rejected_course_program_not_promoted) ... ok
+test_sample_equivalence_not_global_macro_proof (library_m21.tests.SynthesisTests.test_sample_equivalence_not_global_macro_proof) ... ok
+test_true_multiple_counterexamples (library_m21.tests.SynthesisTests.test_true_multiple_counterexamples) ... ok
+
+----------------------------------------------------------------------
+Ran 29 tests in 0.068s
+
+OK

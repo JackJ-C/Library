@@ -1,0 +1,14 @@
+{
+  "status": "CONFIRMED_AND_REPRODUCED",
+  "python": "3.13.5",
+  "prevalidation_commit": "d5d509baecc37223fd0cfc5fdfe6ab1ad2b6a18e",
+  "phases": {
+    "I": {"raw_sha256":"614b489d4b178ccfb4c7923ff9aae07a71349d018bc8364786de4bf79c99d03b","normal_and_optimized_same":true,"joint_pass":true},
+    "J": {"raw_sha256":"2dd53bdfb2dde2a270fb0c883c869adaaa0b94cb0d7e2d02668b67cc86fc738f","normal_and_optimized_same":true,"joint_pass":true}
+  },
+  "clean_source_restore": {"frozen_files":26,"byte_equal":true,"current_unit_tests":35},
+  "legacy_test_executions":241,
+  "legacy_groups":10,
+  "raw_results":"complete in standalone ZIP; not all uploaded to Git",
+  "scope":"bounded operational milestone; six-branch layered inventory, not every historical experiment rerun"
+}

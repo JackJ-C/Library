@@ -1,0 +1,35 @@
+{
+  "files": 38,
+  "encoding": "UTF-8 JSON compressed with standard XZ; ordered binary parts",
+  "raw_bytes": 333910,
+  "raw_sha256": "0a42302c8602432e90d3d2f9486ceffe6b654173026d70df2dd705ec66d14305",
+  "compressed_bytes": 38304,
+  "compressed_sha256": "d2b0e50c4375dc0f73be4eb9aaea6445d57a3ea896ff4433c8e8e41940b9285c",
+  "parts": [
+    {
+      "path": "delivery/m57/text_evidence.part000",
+      "bytes": 9600,
+      "sha256": "97d652645e66ade798c041db4af43ec172c5ed2ef4ef2bda8bf371aa6e71ac1e",
+      "git_blob_sha": "b4a7c706d88d4bdc809deb20a3c703e8a2764d14"
+    },
+    {
+      "path": "delivery/m57/text_evidence.part001",
+      "bytes": 9600,
+      "sha256": "9f0ae4fdb8b387b382dc88085cbc99c97ec963d71c0523e4d3d472ce06e540a6",
+      "git_blob_sha": "cf146d5c1e8b3b438e4b2dd08cd8055630847ec1"
+    },
+    {
+      "path": "delivery/m57/text_evidence.part002",
+      "bytes": 9600,
+      "sha256": "7505a09a61cd2e4ae79722f9b5a4ede24c72c4e7566de5cd8a3dafbd18c255ae",
+      "git_blob_sha": "760d2ce0ea049239b197172e6cf536073a95be77"
+    },
+    {
+      "path": "delivery/m57/text_evidence.part003",
+      "bytes": 9504,
+      "sha256": "f6bec0632fd7cbda2a4c1d4a06e9c42c3ef8c99a4ddf30adbb70e0a4fe5fda2b",
+      "git_blob_sha": "b11d26dcaab72b36a6079fe44c9c2e6019bbb559"
+    }
+  ],
+  "native_restore": "python3 tools/restore_m57_evidence.py --apply"
+}

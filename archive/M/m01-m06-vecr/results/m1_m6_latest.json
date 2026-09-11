@@ -1,0 +1,257 @@
+{
+  "contract_commit": "5bb97212419515f7bf2e3c0a9df0fbb2b35f75e3",
+  "errors": 0,
+  "failures": 0,
+  "python": "3.13.5",
+  "raw_sha256": {
+    "example_trace.json": "fef2eefdd555097efae5a36870555104aae333bd487f222443035ba2f245002a",
+    "random.csv": "53531b204b3c5063d924c208977b84b22dfb834a386f83685c1bdc83e4447b50",
+    "transitions.csv": "2f31fc5af2ebfe599495b9a5979367fe65cce83f17e7f9c88b09335635c43f68",
+    "worlds.csv": "deac7fb9dd4f8bcd85c17205e9c5cdc309de0c4cae5039b7ec44762c18399096"
+  },
+  "results": {
+    "M1": {
+      "automatic_trace_example_world": 85,
+      "worlds": 256
+    },
+    "M2": {
+      "flat_equal": 256,
+      "library_correct": 256,
+      "library_query_histogram": {
+        "4": 256
+      },
+      "passive_abstentions": 256,
+      "random_mean_queries": 8.171875,
+      "random_query_histogram": {
+        "5": 256,
+        "6": 3840,
+        "7": 3072,
+        "8": 3072,
+        "9": 1280,
+        "10": 2560,
+        "11": 1536,
+        "12": 512,
+        "13": 256
+      },
+      "random_runs": 16384,
+      "random_seed_counts": {
+        "0": 6,
+        "1": 10,
+        "10": 7,
+        "11": 11,
+        "12": 8,
+        "13": 8,
+        "14": 11,
+        "15": 8,
+        "16": 7,
+        "17": 7,
+        "18": 11,
+        "19": 7,
+        "2": 6,
+        "20": 8,
+        "21": 10,
+        "22": 10,
+        "23": 6,
+        "24": 10,
+        "25": 9,
+        "26": 8,
+        "27": 5,
+        "28": 10,
+        "29": 6,
+        "3": 6,
+        "30": 7,
+        "31": 7,
+        "32": 6,
+        "33": 6,
+        "34": 10,
+        "35": 7,
+        "36": 9,
+        "37": 10,
+        "38": 8,
+        "39": 8,
+        "4": 10,
+        "40": 7,
+        "41": 7,
+        "42": 9,
+        "43": 11,
+        "44": 13,
+        "45": 10,
+        "46": 8,
+        "47": 9,
+        "48": 6,
+        "49": 6,
+        "5": 11,
+        "50": 8,
+        "51": 9,
+        "52": 6,
+        "53": 11,
+        "54": 8,
+        "55": 7,
+        "56": 7,
+        "57": 8,
+        "58": 8,
+        "59": 10,
+        "6": 6,
+        "60": 6,
+        "61": 6,
+        "62": 12,
+        "63": 6,
+        "7": 7,
+        "8": 12,
+        "9": 6
+      }
+    },
+    "M3": {
+      "adopted": 192,
+      "baseline_correct": 1280,
+      "no_change": 64,
+      "post_deployment_sensor_calls_per_world": 8,
+      "regressed": 0,
+      "repaired_correct": 2048,
+      "tasks": 2048,
+      "validation_sensor_calls_per_world": 16
+    },
+    "M4": {
+      "exact_attribution": 256,
+      "foreign_scope_conflicts": 256,
+      "identity_query_histogram": {
+        "8": 256
+      },
+      "multiworker_exact_attribution": 1024,
+      "multiworker_lower_bound_bits": 10,
+      "multiworker_worlds": 1024,
+      "repair_residual_models": {
+        "16": 256
+      },
+      "separate_identification_queries": 16,
+      "shared_evidence_query_histogram": {
+        "10": 1024
+      }
+    },
+    "M5": {
+      "0": {
+        "blind_gate_rejected": 768,
+        "blind_wrong": 768,
+        "cases": 768,
+        "reset_histogram": {
+          "4": 768
+        },
+        "transported_histogram": {
+          "2": 768
+        }
+      },
+      "3": {
+        "blind_gate_rejected": 0,
+        "blind_wrong": 0,
+        "cases": 768,
+        "reset_histogram": {
+          "4": 768
+        },
+        "transported_histogram": {
+          "0": 768
+        }
+      }
+    },
+    "M6": {
+      "flat_log_advantage_claim": "not_supported",
+      "nonlinear_confident_proposals": 256,
+      "nonlinear_rejected_by_independent_gate": 256,
+      "open_ended_self_evolution": "not_tested",
+      "theorems": {
+        "example_queries": [
+          0,
+          7,
+          8,
+          15
+        ],
+        "full_identity_lower_bound_bits": 8,
+        "minimal_probe_count": 4,
+        "pairwise_but_not_joint": 6,
+        "query_subset_counts": {
+          "0": {
+            "subsets": 1,
+            "sufficient": 0
+          },
+          "1": {
+            "subsets": 16,
+            "sufficient": 0
+          },
+          "10": {
+            "subsets": 8008,
+            "sufficient": 7000
+          },
+          "11": {
+            "subsets": 4368,
+            "sufficient": 4176
+          },
+          "12": {
+            "subsets": 1820,
+            "sufficient": 1804
+          },
+          "13": {
+            "subsets": 560,
+            "sufficient": 560
+          },
+          "14": {
+            "subsets": 120,
+            "sufficient": 120
+          },
+          "15": {
+            "subsets": 16,
+            "sufficient": 16
+          },
+          "16": {
+            "subsets": 1,
+            "sufficient": 1
+          },
+          "2": {
+            "subsets": 120,
+            "sufficient": 0
+          },
+          "3": {
+            "subsets": 560,
+            "sufficient": 0
+          },
+          "4": {
+            "subsets": 1820,
+            "sufficient": 16
+          },
+          "5": {
+            "subsets": 4368,
+            "sufficient": 192
+          },
+          "6": {
+            "subsets": 8008,
+            "sufficient": 1072
+          },
+          "7": {
+            "subsets": 11440,
+            "sufficient": 3424
+          },
+          "8": {
+            "subsets": 12870,
+            "sufficient": 6756
+          },
+          "9": {
+            "subsets": 11440,
+            "sufficient": 8352
+          }
+        },
+        "repair_set_families": 343,
+        "uniform_random_exact_float": 8.437695637695638,
+        "uniform_random_exact_mean": "126692/15015"
+      }
+    }
+  },
+  "skipped": 0,
+  "source_sha256": {
+    "library_m1plus/__init__.py": "3f227ee4961e1b7f0d6f97caa953bfc1fb5fca9d242c927d248b3aca2afe7f02",
+    "library_m1plus/checks.py": "dbf6b643aebadc18cc52829a514a927f325293bb07b1ef77136f7946a729e1f6",
+    "library_m1plus/engine.py": "0bc065f5552830bce844a4321177b6712a7752184648b579a99ef77ee90fdc5f",
+    "library_m1plus/study.py": "e7916dc3ed5cbec706349cb96fd8e0dfc76038c2b65480da6221aaa6e52bb7be",
+    "run_m1_m6.py": "0c809bef6336a38d9a3759d78220d8bf9f3cfe195fef4656db049adc6aefb517"
+  },
+  "status": "PASS",
+  "study_error": null,
+  "tests": 16
+}

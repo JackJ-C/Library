@@ -1,0 +1,53 @@
+{
+  "scope": "available conversation ZIP files only, not a complete Library repository inventory",
+  "packages": [
+    {
+      "file": "Library_M12_M15_v0.4.zip",
+      "bytes": 81853,
+      "sha256": "9c093eb10ef16d9bb053b12152c690d8a19152806bae1e94004c03da233678c4",
+      "entries": 35
+    },
+    {
+      "file": "Library_M16_M20_v0.5.zip",
+      "bytes": 86296,
+      "sha256": "dd308387df88baa74998d747223ef3750389ebe8865acd44ea14f6199defb062",
+      "entries": 31
+    },
+    {
+      "file": "Library_M25_M28_v0.7.zip",
+      "bytes": 682259,
+      "sha256": "f98f32857749ef54afe8ec1dae6ed85b643b7b50c4fa37829b2e12c5f1956223",
+      "entries": 30
+    },
+    {
+      "file": "Library_M29_M32_v0.8.zip",
+      "bytes": 1298906,
+      "sha256": "cbdda55441b5aa7409e68787289c3d86b56f2e1b86a0b9e0b2b39045581f17ef",
+      "entries": 165
+    },
+    {
+      "file": "Library_M33_M37_v0.9.zip",
+      "bytes": 2553516,
+      "sha256": "17dd6959a027267a05ebec8d88e3a22d31603134a9419060c947afb3c8d9cf88",
+      "entries": 55
+    },
+    {
+      "file": "Library_M37_M44_continuous_queen.zip",
+      "bytes": 2225911,
+      "sha256": "0ede6e0c8480f4123f64237f8a7fc25d121737aa494ec0f47a54db639a9ce897",
+      "entries": 62
+    },
+    {
+      "file": "Library_M45_M48_research.zip",
+      "bytes": 3719678,
+      "sha256": "499a34380daae776a5781268352088dbb9cbe875d2fca544d8beabc5ef6b3734",
+      "entries": 120
+    },
+    {
+      "file": "Library_M8_M11_v0.3.zip",
+      "bytes": 176135,
+      "sha256": "19e19395f97a0586e144c49a5074ce3b001d724500ef7c9fdef8e831b4a0eb37",
+      "entries": 30
+    }
+  ]
+}

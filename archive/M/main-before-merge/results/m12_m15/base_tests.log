@@ -1,0 +1,33 @@
+test_actual_deployment_changes_output (library_m8.tests.CoreTests.test_actual_deployment_changes_output) ... ok
+test_basis_counts (library_m8.tests.CoreTests.test_basis_counts) ... ok
+test_cubic_counterexample_expands (library_m8.tests.CoreTests.test_cubic_counterexample_expands) ... ok
+test_duplicate_does_not_double_evidence (library_m8.tests.CoreTests.test_duplicate_does_not_double_evidence) ... ok
+test_environment_cancelled_exhaustively (library_m8.tests.CoreTests.test_environment_cancelled_exhaustively) ... ok
+test_fixed_affine_rejects_cubic (library_m8.tests.CoreTests.test_fixed_affine_rejects_cubic) ... ok
+test_full_basis_is_invertible (library_m8.tests.CoreTests.test_full_basis_is_invertible) ... ok
+test_independent_degree_evaluator (library_m8.tests.CoreTests.test_independent_degree_evaluator) ... ok
+test_model_predictions_reject_outside_scope (library_m8.tests.CoreTests.test_model_predictions_reject_outside_scope) ... ok
+test_partial_fit_is_not_full_certificate (library_m8.tests.CoreTests.test_partial_fit_is_not_full_certificate) ... ok
+test_solver_matches_small_brute_force (library_m8.tests.CoreTests.test_solver_matches_small_brute_force) ... ok
+test_solver_rejects_bad_equation (library_m8.tests.CoreTests.test_solver_rejects_bad_equation) ... ok
+test_empty_candidates_do_not_authorize (library_m8.tests.EvidenceTests.test_empty_candidates_do_not_authorize) ... ok
+test_expansion_can_revoke_all_permissions (library_m8.tests.EvidenceTests.test_expansion_can_revoke_all_permissions) ... ok
+test_future_and_self_reference_rejected (library_m8.tests.EvidenceTests.test_future_and_self_reference_rejected) ... ok
+test_invalid_dependency_rejected (library_m8.tests.EvidenceTests.test_invalid_dependency_rejected) ... ok
+test_missing_source_rejected (library_m8.tests.EvidenceTests.test_missing_source_rejected) ... ok
+test_pairwise_overlap_insufficient (library_m8.tests.EvidenceTests.test_pairwise_overlap_insufficient) ... ok
+test_reading_does_not_relabel_actor (library_m8.tests.EvidenceTests.test_reading_does_not_relabel_actor) ... ok
+test_record_is_frozen_and_body_copied (library_m8.tests.EvidenceTests.test_record_is_frozen_and_body_copied) ... ok
+test_reference_not_dependency (library_m8.tests.EvidenceTests.test_reference_not_dependency) ... ok
+test_revocation_preserves_historical_record (library_m8.tests.EvidenceTests.test_revocation_preserves_historical_record) ... ok
+test_changing_environment_breaks_cancellation (library_m8.tests.RiskTests.test_changing_environment_breaks_cancellation) ... ok
+test_correlated_errors_not_removed_by_repetition (library_m8.tests.RiskTests.test_correlated_errors_not_removed_by_repetition) ... ok
+test_exact_majority_probability (library_m8.tests.RiskTests.test_exact_majority_probability) ... ok
+test_invalid_risk_assumptions_rejected (library_m8.tests.RiskTests.test_invalid_risk_assumptions_rejected) ... ok
+test_risk_budget_is_prespecified (library_m8.tests.RiskTests.test_risk_budget_is_prespecified) ... ok
+test_unobserved_change_is_indistinguishable (library_m8.tests.RiskTests.test_unobserved_change_is_indistinguishable) ... ok
+
+----------------------------------------------------------------------
+Ran 28 tests in 0.025s
+
+OK

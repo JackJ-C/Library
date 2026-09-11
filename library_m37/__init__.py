@@ -1,1 +1,1 @@
-"""M37: actual archived evidence is required by diagnosis, not decorative replay."""
+"""M37–M40：连续 Queen 的联合验收；有限公开机制族，不是意识模型。"""

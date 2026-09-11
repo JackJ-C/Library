@@ -1,0 +1,26 @@
+{
+  "status": "ADDITIONAL_CHECKS_PASS",
+  "aggregate_sets_recomputed": 448,
+  "phases": {
+    "A": {
+      "aggregated_model_sets_recomputed": 224
+    },
+    "B": {
+      "aggregated_model_sets_recomputed": 224
+    }
+  },
+  "base_commit": "a107e655e5a5c4d9dd00a3032ee8d190c8eea4a6",
+  "three_git_blob_hashes_compared_with_live_connector": {
+    "library_m41/__init__.py": "c3c3f39e7a0f46337d4135b031ab6b7262d287b6",
+    "library_m41/integration.py": "76d31a26a3668296185e24074f69c0ddffde6374",
+    "library_m41/tests.py": "c3cf5d0e6bf360f8027d6874a8fe4d0953a6d4c1"
+  },
+  "audit_limitations": [
+    "M45 main reviews mostly use the current observation interval; older-record utility separately tested in M48.",
+    "Counterfactual task logging only in library/plain increases later metadata scan costs; do not compare total compute as if identical.",
+    "marginal control omits persistent identity_beliefs only; it still computes source-mechanism compatibility.",
+    "No entire-repository audit or all historical main experiments rerun.",
+    "Supported nonlinear family was specified in advance; state-dependent outside-family repair failed.",
+    "GitHub write tools unavailable and CLI DNS failed; no remote commit or PR created."
+  ]
+}

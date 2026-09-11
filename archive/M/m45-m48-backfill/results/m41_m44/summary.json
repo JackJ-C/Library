@@ -1,0 +1,91 @@
+{
+  "A_B_role": "preserved frozen baseline; audit found proof-dependency and input-channel gaps",
+  "batches": {
+    "C": {
+      "all_joint_checks_pass": true,
+      "archive": "results/m41_m44/runs/617292656e389179eb5831d661fec2f0742a2b630af60683c1d51b74d0f50083.json.xz",
+      "primary": {
+        "ambiguity_calibrated": 256,
+        "cycles_at_least_three": 32,
+        "false_certainty": 0,
+        "future_correct": 2034,
+        "future_tasks": 2048,
+        "history_preserved": 32,
+        "identity_ambiguous": 256,
+        "identity_correct": 360,
+        "identity_identifiable": 360,
+        "live_correct": 851,
+        "live_tasks": 1024,
+        "post_review_correct": 814,
+        "post_review_tasks": 814,
+        "regressions": 0,
+        "resolved": 407,
+        "same_queen": 32,
+        "substantive_revisions": 192,
+        "unrelated_modifications": 0,
+        "wrong_patch_sets": 0
+      },
+      "seeds_start": 3000,
+      "sha256": "617292656e389179eb5831d661fec2f0742a2b630af60683c1d51b74d0f50083",
+      "trajectories": 32
+    },
+    "D": {
+      "all_joint_checks_pass": true,
+      "archive": "results/m41_m44/runs/d923c03ef57795015976265940e168dca20b3ba47a5ea944b370bb81287c4b42.json.xz",
+      "primary": {
+        "ambiguity_calibrated": 256,
+        "cycles_at_least_three": 32,
+        "false_certainty": 0,
+        "future_correct": 2040,
+        "future_tasks": 2048,
+        "history_preserved": 32,
+        "identity_ambiguous": 256,
+        "identity_correct": 357,
+        "identity_identifiable": 357,
+        "live_correct": 850,
+        "live_tasks": 1024,
+        "post_review_correct": 810,
+        "post_review_tasks": 810,
+        "regressions": 0,
+        "resolved": 405,
+        "same_queen": 32,
+        "substantive_revisions": 192,
+        "unrelated_modifications": 0,
+        "wrong_patch_sets": 0
+      },
+      "seeds_start": 4000,
+      "sha256": "d923c03ef57795015976265940e168dca20b3ba47a5ea944b370bb81287c4b42",
+      "trajectories": 32
+    }
+  },
+  "combined_primary": {
+    "actual_behavior_changed_cases": 205,
+    "all_requests_correct": 5775,
+    "all_requests_total": 6144,
+    "daily_correct": 1701,
+    "daily_total": 2048,
+    "false_attribution_certainty": 0,
+    "future_correct": 4074,
+    "future_total": 4096,
+    "identifiable_correct": 717,
+    "identifiable_total": 717,
+    "post_boot_revisions": 320,
+    "post_review_correct": 1624,
+    "post_review_total": 1624,
+    "same_lived_rollback_and_support_reproof": 64,
+    "seed_trajectories": 64,
+    "symmetric_uncertain": 512
+  },
+  "freeze_commit": "3919666c1515cec5e9110f57f63a1a4c8a4bc0c0",
+  "limits": [
+    "trusted own-intention custody and supplied revisit cue",
+    "two candidates with equal prior for indistinguishable cases",
+    "fixed finite mechanism family and meta-reviewer",
+    "attribution not used to improve control",
+    "daily errors and blocked tasks count separately",
+    "64 deliberate latent errors in separate primary pressure tests"
+  ],
+  "milestone": "M37-M44; confirmed path M41-M44",
+  "raw_archive_delivery": "complete standard XZ in standalone package; Git-only run C and D before replay",
+  "status": "BOUNDED_JOINT_CONFIRMATION_PASS"
+}

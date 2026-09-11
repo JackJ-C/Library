@@ -1,0 +1,15 @@
+{
+  "baseline_commit": "1d496a4688515127b84458cc664314cf1e4de220",
+  "remote_compared_files": [
+    {
+      "path": "library_m12/core.py",
+      "bytes": 9527,
+      "git_blob": "59e40870abfad2fff3ca4bbab141d4ef979162f4",
+      "expected_remote_blob": "59e40870abfad2fff3ca4bbab141d4ef979162f4",
+      "sha256": "6d846dcf995290d3d2eb8d343afef7b578023caa0970a57bee166e7cb6d527fd"
+    }
+  ],
+  "old_archive_verified": "f1fa512b3cd23bb37c195304dc551b646534ecb2959c1d12ae136a10fcb604dd",
+  "old_unit_tests_rerun": 24,
+  "old_full_world_experiments_rerun": false
+}

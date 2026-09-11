@@ -1,0 +1,46 @@
+{
+  "scope": "All six visible branch heads mapped; pinned module/body checks and available-source static scan. Not every historical file line or every experiment rerun.",
+  "branch_heads": {
+    "main": "22e4eb8481c57423f78abb01d82dbb1f855563b5",
+    "research/m1-m6-vecr-v02": "4600ae4133bdfbc1cb3d03084ba1aa9ab69d46c2",
+    "research/m37-m40-continuous-queen": "a107e655e5a5c4d9dd00a3032ee8d190c8eea4a6",
+    "research/m45-m48-origin-use": "d13dc4dd51aa0208d46ff6871921ed6ef1ccd7bc",
+    "delivery/m45-m48-backfill-20260911": "a122a5c764bb04d87d2ee8b06ae57ee4a2e89cb4",
+    "research/m50-m53-conditional-closure": "d5d509baecc37223fd0cfc5fdfe6ab1ad2b6a18e"
+  },
+  "authenticated_subtrees": [
+    {"module":"library_m8","package":"Library_M29_M32_v0.8.zip","files":4,"expected_remote_tree":"b82f099e600f147311ccb036fb9ed9a3064160c4","actual_tree":"b82f099e600f147311ccb036fb9ed9a3064160c4","match":true},
+    {"module":"library_m12","package":"Library_M29_M32_v0.8.zip","files":5,"expected_remote_tree":"3766fd146b9ab5dd30237a3489a529edcd9e969d","actual_tree":"3766fd146b9ab5dd30237a3489a529edcd9e969d","match":true},
+    {"module":"library_m16","package":"Library_M29_M32_v0.8.zip","files":5,"expected_remote_tree":"4617dac44690443af3515af1ae5188b05a6eb238","actual_tree":"4617dac44690443af3515af1ae5188b05a6eb238","match":true},
+    {"module":"library_m25","package":"Library_M29_M32_v0.8.zip","files":5,"expected_remote_tree":"5bb568fe60a6cbb563d8cebfe546cfc2a2eedf84","actual_tree":"5bb568fe60a6cbb563d8cebfe546cfc2a2eedf84","match":true},
+    {"module":"library_m29","package":"Library_M29_M32_v0.8.zip","files":7,"expected_remote_tree":"d162d61e1bac170bcd219697db2284740596b1b7","actual_tree":"d162d61e1bac170bcd219697db2284740596b1b7","match":true},
+    {"module":"library_m37","package":"Library_M37_M44_continuous_queen.zip","files":7,"expected_remote_tree":"0d25efb46ce147c5c01a57fb2c8fa247d2dfd209","actual_tree":"0d25efb46ce147c5c01a57fb2c8fa247d2dfd209","match":true},
+    {"module":"library_m41","package":"Library_M37_M44_continuous_queen.zip","files":3,"expected_remote_tree":"feee610d0108caa24a6a9f4d4b4d6f1e0f3cbdbe","actual_tree":"feee610d0108caa24a6a9f4d4b4d6f1e0f3cbdbe","match":true},
+    {"module":"library_m45","package":"Library_M45_M48_research.zip","files":5,"expected_remote_tree":"2dd12c463b0cc5daa1dc08ef312e6b010f174963","actual_tree":"2dd12c463b0cc5daa1dc08ef312e6b010f174963","match":true},
+    {"module":"library_m33","package":"Library_M33_M37_v0.9.zip","files":5,"expected_remote_tree":"cecfa2f118a153b635d4dba77b4c27d65de0480f","actual_tree":"cecfa2f118a153b635d4dba77b4c27d65de0480f","match":true},
+    {"module":"library_m37","package":"Library_M33_M37_v0.9.zip","files":3,"expected_remote_tree":"085ae613e52d2569ad0b2f1cc591a79bf29c3e3f","actual_tree":"085ae613e52d2569ad0b2f1cc591a79bf29c3e3f","match":true}
+  ],
+  "available_historical_python_variants":74,
+  "available_historical_python_paths":72,
+  "available_historical_markdown_variants":66,
+  "syntax_errors":[],
+  "additional_new_python_files_parsed":["library_m52/__init__.py","library_m52/core.py","library_m52/identity.py","library_m52/models.py","library_m52/pressure.py","library_m52/study.py","library_m52/tests.py","library_m52/world.py","library_m53/__init__.py","library_m53/core.py","library_m53/identity.py","library_m53/models.py","library_m53/pressure.py","library_m53/study.py","library_m53/tests.py","library_m53/world.py"],
+  "historical_test_groups":[
+    {"snapshot":"Library_M29_M32_v0.8","module":"library_m8.tests","returncode":0,"tests_run":28,"seconds":0.6627991689997543,"log_sha256":"51ca5fe81de13e5390b610cce3decf11a6deb891769efba6e3f60e5dcc3a1995","log":"regression_logs/Library_M29_M32_v0.8_library_m8.tests.log"},
+    {"snapshot":"Library_M29_M32_v0.8","module":"library_m12.tests","returncode":0,"tests_run":24,"seconds":0.7350590890000603,"log_sha256":"6f799a73c69a90726556f7cbb99b15470f345a854f8e8be3dcf051ce47b7b8c0","log":"regression_logs/Library_M29_M32_v0.8_library_m12.tests.log"},
+    {"snapshot":"Library_M29_M32_v0.8","module":"library_m16.tests","returncode":0,"tests_run":29,"seconds":1.0271356580001338,"log_sha256":"b0b3b6dce27c62540424c8c9b1aea2e762f64ab2a746f3cda4e2264e1635e599","log":"regression_logs/Library_M29_M32_v0.8_library_m16.tests.log"},
+    {"snapshot":"Library_M29_M32_v0.8","module":"library_m25.tests","returncode":0,"tests_run":27,"seconds":0.9062504990001798,"log_sha256":"2fb9593257e49247905cc631e7fc47a4822ebf24c054e4bf2c975c5c9369d28f","log":"regression_logs/Library_M29_M32_v0.8_library_m25.tests.log"},
+    {"snapshot":"Library_M29_M32_v0.8","module":"library_m29.tests","returncode":0,"tests_run":28,"seconds":0.6711151780000364,"log_sha256":"cab6061fd0b4299eea5a615098a73ed3896afb0de476137747feb8900a297765","log":"regression_logs/Library_M29_M32_v0.8_library_m29.tests.log"},
+    {"snapshot":"Library_M45_M48_research","module":"library_m37.tests","returncode":0,"tests_run":34,"seconds":1.458393634999993,"log_sha256":"7836ceadffb0d2b7d67f4ab7713ed7e0990fa11685002cf1eecef14d7f705e75","log":"regression_logs/Library_M45_M48_research_library_m37.tests.log"},
+    {"snapshot":"Library_M45_M48_research","module":"library_m41.tests","returncode":0,"tests_run":12,"seconds":0.8481881079997038,"log_sha256":"7a9fe67b99a453d23c8433fbd26ef45727c269544bceafde2598bb746ffa8625","log":"regression_logs/Library_M45_M48_research_library_m41.tests.log"},
+    {"snapshot":"Library_M45_M48_research","module":"library_m45.tests","returncode":0,"tests_run":23,"seconds":1.1168676910001523,"log_sha256":"1f28dd1bc88d3bfbac319d2685df85fc9ac9654fd380e62fc7dbe4be77c6e0e0","log":"regression_logs/Library_M45_M48_research_library_m45.tests.log"},
+    {"snapshot":"Library_M33_M37_v0.9","module":"library_m33.tests","returncode":0,"tests_run":30,"seconds":0.6874006169996392,"log_sha256":"44304b267b07b98aa64a6e397fca18a995d4b97e4cabc6e07b39f94cd1a2a7fb","log":"regression_logs/Library_M33_M37_v0.9_library_m33.tests.log"},
+    {"snapshot":"Library_M33_M37_v0.9","module":"library_m37.tests","returncode":0,"tests_run":6,"seconds":0.6956882299996323,"log_sha256":"1d63d6fd762f95cb6cbbd1bda8a7eab0f0596e5375e40e715d5dd4df67fdaaf2","log":"regression_logs/Library_M33_M37_v0.9_library_m37.tests.log"}
+  ],
+  "historical_test_executions":241,
+  "connector_body_reads_beyond_archive":["library_m0/core.py","library_m0/witnesses.py","library_m21/engine.py","library_m21/synthesis.py","library_m21/study.py","library_experiments.py"],
+  "not_rerun_complete_historical_experiments":["M0","M1-M7","M21-M24","early M1plus branch","other old full benchmark runners"],
+  "registration_only_not_reproduced":["parallel M49","prior M50","prior M51"],
+  "historical_raw_upload_backlog":"13 M37-M48 raw XZ files previously listed, 3517468 bytes; older packages also not claimed fully uploaded",
+  "unestablished_claims":["global originality","complete self awareness","unrestricted mechanism discovery","autonomous origin of every meta-rule","spatial container independent advantage","whole repository as one lifetime"]
+}

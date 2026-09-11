@@ -1,0 +1,9 @@
+{
+  "verified": true,
+  "result_sha256": "a607312fd0ab2ab8f212d5afe5e434b3940e3386cdd5596c1ab52d3a45ba96d5",
+  "source_files": 8,
+  "task_runs_checked": 160,
+  "actual_refutations_checked": 111,
+  "future_outputs_replayed": 12432,
+  "note": "回读所有原档与独立树执行；不是重新运行学习实验或独立外部复现。"
+}

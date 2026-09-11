@@ -1,0 +1,22 @@
+{
+  "archive": "results/runs/3a4ee0892983324963ff36777cd811e14b0634218605d2224c050663793dfc95.json.gz",
+  "python": "3.13.5",
+  "sha256_uncompressed": "3a4ee0892983324963ff36777cd811e14b0634218605d2224c050663793dfc95",
+  "source_sha256": {
+    "library_experiments.py": "695f63df3d0ad905803ba1e06d76a09b1eb23a3d623290251ac0d5f89bb99955",
+    "run_m1_m6.py": "09fa82ef2b84d1aebf84dda5aac53b26ac28781f3594a42ca0f7d608f70c5fc1",
+    "run_m7.py": "0520d5e415d820e3b62e442bfb7426ffdc5104d9f1bc0b1507800a553bcda6b4"
+  },
+  "summary": {
+    "certificate_matches_exhaustion": 256,
+    "certified_accept": 112,
+    "certified_nonzero_change": 48,
+    "internal_perfect": 256,
+    "natural_mean_better": 48,
+    "natural_mean_unchanged": 160,
+    "natural_mean_worse": 48,
+    "no_feasible_correction": 144,
+    "some_natural_case_regresses": 144,
+    "worlds": 256
+  }
+}

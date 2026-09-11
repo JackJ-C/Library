@@ -1,0 +1,33 @@
+{
+  "status": "CLEAN_EXTRACTION_CHECKS_PASS",
+  "zip_sha256": "0ede6e0c8480f4123f64237f8a7fc25d121737aa494ec0f47a54db639a9ce897",
+  "zip_bytes": 2225911,
+  "python": "3.13.5",
+  "commands": [
+    {
+      "command": "python3 -m unittest library_m37.tests -v",
+      "tests_run": 34,
+      "returncode": 0
+    },
+    {
+      "command": "python3 -m unittest library_m41.tests -v",
+      "tests_run": 12,
+      "returncode": 0
+    },
+    {
+      "command": "python3 tools/verify_m37_m40.py both",
+      "returncode": 0,
+      "role": "baseline A/B original contract, not patched confirmation"
+    },
+    {
+      "command": "python3 tools/verify_m41_m44.py both",
+      "returncode": 0
+    },
+    {
+      "command": "python3 run_m41_m44.py C",
+      "returncode": 0,
+      "result_sha256": "617292656e389179eb5831d661fec2f0742a2b630af60683c1d51b74d0f50083"
+    }
+  ],
+  "scope": "62-file standalone package, not entire repository; replays do not increase sample counts"
+}

@@ -1,0 +1,60 @@
+{
+  "base_commit": "4a217bbd1236da6df989c7792d7b06f54da77e58",
+  "checks": [
+    {
+      "path": "library_m8/core.py",
+      "remote_git_blob": "22c04ddd698661ca541663d268008f277d27d0e4",
+      "matched": true
+    },
+    {
+      "path": "library_m8/study.py",
+      "remote_git_blob": "27baba3c908612a04d4b8e55eb09b348ad7b6ef4",
+      "matched": true
+    },
+    {
+      "path": "library_m8/tests.py",
+      "remote_git_blob": "0d47ea534a0a63387da7242cc44559ec377b98aa",
+      "matched": true
+    },
+    {
+      "path": "run_m8_m11.py",
+      "remote_git_blob": "5b8c7e78df2d845fca35ff270be60bbab11a4f99",
+      "matched": true
+    },
+    {
+      "path": "tools/m8_evidence.py",
+      "remote_git_blob": "0746949a80b8f89e25d660ce2370af92d71c3d38",
+      "matched": true
+    },
+    {
+      "path": "README.md",
+      "remote_git_blob": "919f4b56feb25299a35f52b86fcc2efddc5985b0",
+      "matched": true
+    },
+    {
+      "path": "docs/LIBRARY_THEORY_v0.3.md",
+      "remote_git_blob": "9dc7d4254b1ec838b4bbb1a88fd380e8796f347e",
+      "matched": true
+    },
+    {
+      "path": "docs/M8_M11_CONTRACT.md",
+      "remote_git_blob": "6287e774528532f9e9fd2de35de1c541a4a0962d",
+      "matched": true
+    },
+    {
+      "path": "docs/M8_M11_RESEARCH_REPORT.md",
+      "remote_git_blob": "3127af6de231e7a4bc88c0670e1c9335d0b01d8d",
+      "matched": true
+    },
+    {
+      "path": "docs/LIBRARY_THEORY.md",
+      "remote_git_blob": "675e1e4343608dee1031a3d719c5dd6ebaea91a9",
+      "matched": true
+    },
+    {
+      "path": "docs/RESEARCH_REPORT.md",
+      "remote_git_blob": "deb87be788754e3381d4b6b23f751f411308889b",
+      "matched": true
+    }
+  ]
+}

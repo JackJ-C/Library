@@ -1,0 +1,208 @@
+{
+  "archive": "results/m8_m11/runs/a08523cf2621a24723d1abb4b1179a8d187ff863d7b48821edb547188e1a7269.json.xz",
+  "command": "python3 run_m8_m11.py",
+  "contract_commit": "a66442eb217fcc194f5d8e3f221d0d551d808ab7",
+  "contract_hash_matches": true,
+  "errors": [],
+  "experiment_error": null,
+  "failures": [],
+  "implementation": "CPython",
+  "passed": true,
+  "python": "3.13.5",
+  "research_date": "2026-09-10",
+  "result_sha256": "a08523cf2621a24723d1abb4b1179a8d187ff863d7b48821edb547188e1a7269",
+  "schema": "library.m8-m11.v1",
+  "skipped": [],
+  "source_sha256": {
+    "docs/M8_M11_CONTRACT.md": "a42a84d96e4ae61bb7548c7d28a2c8869c97ae2c99c49cfeea4649403894c7f7",
+    "library_m8/__init__.py": "00cf93c8f78a265743ebba78034d76dbfd90da89754699b944a367166fd08775",
+    "library_m8/core.py": "fc1aca53c55dd962693616ae8055e92a80ccb02d21792e5f89be55ade5051952",
+    "library_m8/study.py": "7cde4a2cc5c1f39de63ec0cfb209b2e4ecf9a34666eb31a8e9971b6f5f9d20da",
+    "library_m8/tests.py": "308e4bc50081e9f25b984be3b2339d4b7055b507c8f80aabe73e9fca03e6b007",
+    "run_m8_m11.py": "2a9e44b922b68e42853416ab39a940468661610dc75601fc03770c191561bea6"
+  },
+  "summaries": {
+    "M10": {
+      "correlated_failed_audits": 430,
+      "drift_transitions": 65280,
+      "eight_point_recovered": 65280,
+      "four_point_detected": 61440,
+      "four_point_undetected": 3840,
+      "multi_actual_union_bound": 0.03633450805734401,
+      "multi_allocated_risk_sum": 0.044444444444444446,
+      "multi_failed_windows": 1,
+      "multi_repeats_by_t": [
+        7,
+        9,
+        11,
+        11,
+        13,
+        13,
+        13,
+        15
+      ],
+      "multi_sequences": 64,
+      "multi_sequences_with_error": 1,
+      "multi_windows": 512,
+      "no_recheck_wrong": 65280,
+      "noise_any_error_exact": 0.0023632017090643442,
+      "noise_any_error_union_bound": 0.002365648640000001,
+      "noise_failed_audits": 4,
+      "noise_majority_bit_error_exact": 0.00029570608000000013,
+      "noise_p": 0.1,
+      "noise_seeds": 4096,
+      "repeats": 11
+    },
+    "M8": {
+      "adaptive_queries": 8,
+      "after_correct": 4096,
+      "before_correct": 2048,
+      "cubic_challenge_failures": 8192,
+      "cubic_worlds_failing": 2048,
+      "degree_1": 16,
+      "degree_2": 112,
+      "degree_3": 128,
+      "early_unconditional_wrong": 240,
+      "expanded_worlds": 240,
+      "expansion_events": 368,
+      "fixed_model_rejected": 240,
+      "heldout_input_payload_cases": 20480,
+      "maximal_grammar_correct": 256,
+      "maximal_grammar_queries": 8,
+      "paired_physical_calls": 16,
+      "plain_log_equal": 256,
+      "quadratic_correct": 20480,
+      "quadratic_worlds": 2048,
+      "recovered": 256,
+      "worlds": 256
+    },
+    "M9": {
+      "acceptance_configs": 343,
+      "all_equal_full_log": true,
+      "all_references_ablation_loses_valid_review": true,
+      "dependency_edge_visits": 7992,
+      "expansion_edges_tested": 3087,
+      "graphs": 1024,
+      "nonempty_to_empty": 774,
+      "omitted_dependency_stale_certificate": true,
+      "reference_vs_dependency_example_passed": true,
+      "root_audits": 5120,
+      "strict_shrinks": 1656
+    }
+  },
+  "test_cases": [
+    [
+      "library_m8.tests.CoreTests.test_actual_deployment_changes_output",
+      "PASS"
+    ],
+    [
+      "library_m8.tests.CoreTests.test_basis_counts",
+      "PASS"
+    ],
+    [
+      "library_m8.tests.CoreTests.test_cubic_counterexample_expands",
+      "PASS"
+    ],
+    [
+      "library_m8.tests.CoreTests.test_duplicate_does_not_double_evidence",
+      "PASS"
+    ],
+    [
+      "library_m8.tests.CoreTests.test_environment_cancelled_exhaustively",
+      "PASS"
+    ],
+    [
+      "library_m8.tests.CoreTests.test_fixed_affine_rejects_cubic",
+      "PASS"
+    ],
+    [
+      "library_m8.tests.CoreTests.test_full_basis_is_invertible",
+      "PASS"
+    ],
+    [
+      "library_m8.tests.CoreTests.test_independent_degree_evaluator",
+      "PASS"
+    ],
+    [
+      "library_m8.tests.CoreTests.test_model_predictions_reject_outside_scope",
+      "PASS"
+    ],
+    [
+      "library_m8.tests.CoreTests.test_partial_fit_is_not_full_certificate",
+      "PASS"
+    ],
+    [
+      "library_m8.tests.CoreTests.test_solver_matches_small_brute_force",
+      "PASS"
+    ],
+    [
+      "library_m8.tests.CoreTests.test_solver_rejects_bad_equation",
+      "PASS"
+    ],
+    [
+      "library_m8.tests.EvidenceTests.test_empty_candidates_do_not_authorize",
+      "PASS"
+    ],
+    [
+      "library_m8.tests.EvidenceTests.test_expansion_can_revoke_all_permissions",
+      "PASS"
+    ],
+    [
+      "library_m8.tests.EvidenceTests.test_future_and_self_reference_rejected",
+      "PASS"
+    ],
+    [
+      "library_m8.tests.EvidenceTests.test_invalid_dependency_rejected",
+      "PASS"
+    ],
+    [
+      "library_m8.tests.EvidenceTests.test_missing_source_rejected",
+      "PASS"
+    ],
+    [
+      "library_m8.tests.EvidenceTests.test_pairwise_overlap_insufficient",
+      "PASS"
+    ],
+    [
+      "library_m8.tests.EvidenceTests.test_reading_does_not_relabel_actor",
+      "PASS"
+    ],
+    [
+      "library_m8.tests.EvidenceTests.test_record_is_frozen_and_body_copied",
+      "PASS"
+    ],
+    [
+      "library_m8.tests.EvidenceTests.test_reference_not_dependency",
+      "PASS"
+    ],
+    [
+      "library_m8.tests.EvidenceTests.test_revocation_preserves_historical_record",
+      "PASS"
+    ],
+    [
+      "library_m8.tests.RiskTests.test_changing_environment_breaks_cancellation",
+      "PASS"
+    ],
+    [
+      "library_m8.tests.RiskTests.test_correlated_errors_not_removed_by_repetition",
+      "PASS"
+    ],
+    [
+      "library_m8.tests.RiskTests.test_exact_majority_probability",
+      "PASS"
+    ],
+    [
+      "library_m8.tests.RiskTests.test_invalid_risk_assumptions_rejected",
+      "PASS"
+    ],
+    [
+      "library_m8.tests.RiskTests.test_risk_budget_is_prespecified",
+      "PASS"
+    ],
+    [
+      "library_m8.tests.RiskTests.test_unobserved_change_is_indistinguishable",
+      "PASS"
+    ]
+  ],
+  "tests_run": 28
+}

@@ -1,0 +1,24 @@
+{
+  "status": "VERIFIED",
+  "phases": [
+    {
+      "phase": "C",
+      "archive_sha256": "617292656e389179eb5831d661fec2f0742a2b630af60683c1d51b74d0f50083",
+      "episodes": 192,
+      "executions_recomputed": 18432,
+      "attributions_checked": 3708,
+      "slices_checked": 26526,
+      "joint_verdict_reported": true
+    },
+    {
+      "phase": "D",
+      "archive_sha256": "d923c03ef57795015976265940e168dca20b3ba47a5ea944b370bb81287c4b42",
+      "episodes": 192,
+      "executions_recomputed": 18432,
+      "attributions_checked": 3693,
+      "slices_checked": 26530,
+      "joint_verdict_reported": true
+    }
+  ],
+  "independence": "separate code path, not separate research team"
+}

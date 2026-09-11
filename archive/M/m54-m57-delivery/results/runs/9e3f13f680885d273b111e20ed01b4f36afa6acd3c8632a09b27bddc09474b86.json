@@ -1,0 +1,843 @@
+{
+  "checks": [
+    {
+      "case": "tests.test_m0.ContractTests.test_byte_budget_reports_truncation",
+      "status": "PASS"
+    },
+    {
+      "case": "tests.test_m0.ContractTests.test_depth_budget_reports_truncation",
+      "status": "PASS"
+    },
+    {
+      "case": "tests.test_m0.ContractTests.test_digest_tracks_contents_and_order",
+      "status": "PASS"
+    },
+    {
+      "case": "tests.test_m0.ContractTests.test_duplicate_is_rejected",
+      "status": "PASS"
+    },
+    {
+      "case": "tests.test_m0.ContractTests.test_exact_byte_budget_succeeds",
+      "status": "PASS"
+    },
+    {
+      "case": "tests.test_m0.ContractTests.test_future_and_self_references_rejected",
+      "status": "PASS"
+    },
+    {
+      "case": "tests.test_m0.ContractTests.test_invalid_budgets_rejected",
+      "status": "PASS"
+    },
+    {
+      "case": "tests.test_m0.ContractTests.test_invalid_metadata_rejected",
+      "status": "PASS"
+    },
+    {
+      "case": "tests.test_m0.ContractTests.test_invalid_times_rejected",
+      "status": "PASS"
+    },
+    {
+      "case": "tests.test_m0.ContractTests.test_late_evidence_not_visible_in_past",
+      "status": "PASS"
+    },
+    {
+      "case": "tests.test_m0.ContractTests.test_nan_and_non_json_rejected",
+      "status": "PASS"
+    },
+    {
+      "case": "tests.test_m0.ContractTests.test_nested_payload_is_snapshot",
+      "status": "PASS"
+    },
+    {
+      "case": "tests.test_m0.ContractTests.test_node_budget_reports_truncation",
+      "status": "PASS"
+    },
+    {
+      "case": "tests.test_m0.ContractTests.test_review_of_review_retains_sources",
+      "status": "PASS"
+    },
+    {
+      "case": "tests.test_m0.ContractTests.test_same_code_does_not_merge_instances",
+      "status": "PASS"
+    },
+    {
+      "case": "tests.test_m0.ContractTests.test_shared_ancestor_not_duplicated",
+      "status": "PASS"
+    },
+    {
+      "case": "tests.test_m0.ContractTests.test_slice_is_frozen",
+      "status": "PASS"
+    },
+    {
+      "case": "tests.test_m0.ContractTests.test_source_is_not_reader",
+      "status": "PASS"
+    },
+    {
+      "case": "tests.test_m0.ContractTests.test_unknown_key_rejected",
+      "status": "PASS"
+    },
+    {
+      "case": "tests.test_m0.ContractTests.test_unknown_outcome_remains_unknown",
+      "status": "PASS"
+    },
+    {
+      "case": "tests.test_m0.JudgmentTests.test_changed_reader_can_be_compared",
+      "status": "PASS"
+    },
+    {
+      "case": "tests.test_m0.JudgmentTests.test_frozen_reobservation_has_zero_gap",
+      "status": "PASS"
+    },
+    {
+      "case": "tests.test_m0.JudgmentTests.test_invalid_judgment_rejected",
+      "status": "PASS"
+    },
+    {
+      "case": "tests.test_m0.JudgmentTests.test_square_preserves_interaction",
+      "status": "PASS"
+    },
+    {
+      "case": "tests.test_m0.JudgmentTests.test_uncontrolled_comparisons_rejected",
+      "status": "PASS"
+    },
+    {
+      "case": "tests.test_m0.JudgmentTests.test_unknown_judgment_is_not_zero",
+      "status": "PASS"
+    }
+  ],
+  "command": "python3 run_m0.py",
+  "contract_commit": "65f22aeae2a12f250e522359259f6ca6b3656024",
+  "contract_hash_matches": true,
+  "errors": [],
+  "executed_cases": [
+    "tests.test_m0.ContractTests.test_byte_budget_reports_truncation",
+    "tests.test_m0.ContractTests.test_depth_budget_reports_truncation",
+    "tests.test_m0.ContractTests.test_digest_tracks_contents_and_order",
+    "tests.test_m0.ContractTests.test_duplicate_is_rejected",
+    "tests.test_m0.ContractTests.test_exact_byte_budget_succeeds",
+    "tests.test_m0.ContractTests.test_future_and_self_references_rejected",
+    "tests.test_m0.ContractTests.test_invalid_budgets_rejected",
+    "tests.test_m0.ContractTests.test_invalid_metadata_rejected",
+    "tests.test_m0.ContractTests.test_invalid_times_rejected",
+    "tests.test_m0.ContractTests.test_late_evidence_not_visible_in_past",
+    "tests.test_m0.ContractTests.test_nan_and_non_json_rejected",
+    "tests.test_m0.ContractTests.test_nested_payload_is_snapshot",
+    "tests.test_m0.ContractTests.test_node_budget_reports_truncation",
+    "tests.test_m0.ContractTests.test_review_of_review_retains_sources",
+    "tests.test_m0.ContractTests.test_same_code_does_not_merge_instances",
+    "tests.test_m0.ContractTests.test_shared_ancestor_not_duplicated",
+    "tests.test_m0.ContractTests.test_slice_is_frozen",
+    "tests.test_m0.ContractTests.test_source_is_not_reader",
+    "tests.test_m0.ContractTests.test_unknown_key_rejected",
+    "tests.test_m0.ContractTests.test_unknown_outcome_remains_unknown",
+    "tests.test_m0.JudgmentTests.test_changed_reader_can_be_compared",
+    "tests.test_m0.JudgmentTests.test_frozen_reobservation_has_zero_gap",
+    "tests.test_m0.JudgmentTests.test_invalid_judgment_rejected",
+    "tests.test_m0.JudgmentTests.test_square_preserves_interaction",
+    "tests.test_m0.JudgmentTests.test_uncontrolled_comparisons_rejected",
+    "tests.test_m0.JudgmentTests.test_unknown_judgment_is_not_zero"
+  ],
+  "failures": [],
+  "implementation": "CPython",
+  "milestone": "M0",
+  "python": "3.13.5",
+  "research_date": "2026-09-10",
+  "scope": "formal_contract_and_finite_witnesses_not_learning",
+  "skipped": [],
+  "source_sha256": {
+    "docs/M0_CONTRACT.md": "226b10ae0b6ae208d9528516990730e76fedc56c90dbb07d4bbfac0c779124d3",
+    "docs/M0_SPEC.md": "cc4ccf906087c5c9d582a4c47f1dd126c892538b7a5d17be93bbedb4327a92ad",
+    "docs/RELATED_WORK.md": "52348a43b33ebd784f91e68a7b17ab4e316a6529a339c367d60c002058c2afc7",
+    "library_m0/__init__.py": "affff6b25c70e91044c1009d945637c9ef510eb75045ff952ab218347f0dab83",
+    "library_m0/core.py": "339f6aeb7de44a0bb93c3db667c7788a378e053c5813ac73d73e64f486cf2f70",
+    "library_m0/witnesses.py": "e7bc5ecb7056e4ff683266a4b38448f77a4da69bb03928db96a5fc9ada4c433d",
+    "run_m0.py": "83e8e4dab185d521ebdea6448cc5d5d068deb253975d3d4e17daf7a61441aa0d",
+    "tests/__init__.py": "bcb1aa7bfd9730aba0198dcb832d1b0b7760ce06da53ba05f0d925f66bfb46bc",
+    "tests/test_m0.py": "8188fae0f207f0d6fb9ca8861adf9621e3129b2626084ba1b0059c6479de47cc"
+  },
+  "status": "PASS",
+  "tests_run": 26,
+  "witness_error": null,
+  "witnesses": {
+    "W1_gap_not_progress": {
+      "cases": [
+        {
+          "gap": 0,
+          "new": 0,
+          "old": 0,
+          "target": 0,
+          "utility": 0
+        },
+        {
+          "gap": 0,
+          "new": 0,
+          "old": 0,
+          "target": 1,
+          "utility": 0
+        },
+        {
+          "gap": 1,
+          "new": 1,
+          "old": 0,
+          "target": 0,
+          "utility": -1
+        },
+        {
+          "gap": 1,
+          "new": 1,
+          "old": 0,
+          "target": 1,
+          "utility": 1
+        },
+        {
+          "gap": 1,
+          "new": 0,
+          "old": 1,
+          "target": 0,
+          "utility": 1
+        },
+        {
+          "gap": 1,
+          "new": 0,
+          "old": 1,
+          "target": 1,
+          "utility": -1
+        },
+        {
+          "gap": 0,
+          "new": 1,
+          "old": 1,
+          "target": 0,
+          "utility": 0
+        },
+        {
+          "gap": 0,
+          "new": 1,
+          "old": 1,
+          "target": 1,
+          "utility": 0
+        }
+      ],
+      "changed": 4,
+      "improved": 2,
+      "status": "PASS",
+      "worsened": 2
+    },
+    "W2_summary_collision": {
+      "ambiguous_classes": 3,
+      "groups_by_sum": {
+        "0": [
+          {
+            "failure_positions": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "history": [
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "1": [
+          {
+            "failure_positions": [
+              0,
+              1,
+              2
+            ],
+            "history": [
+              0,
+              0,
+              0,
+              1
+            ]
+          },
+          {
+            "failure_positions": [
+              0,
+              1,
+              3
+            ],
+            "history": [
+              0,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "failure_positions": [
+              0,
+              2,
+              3
+            ],
+            "history": [
+              0,
+              1,
+              0,
+              0
+            ]
+          },
+          {
+            "failure_positions": [
+              1,
+              2,
+              3
+            ],
+            "history": [
+              1,
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "2": [
+          {
+            "failure_positions": [
+              0,
+              1
+            ],
+            "history": [
+              0,
+              0,
+              1,
+              1
+            ]
+          },
+          {
+            "failure_positions": [
+              0,
+              2
+            ],
+            "history": [
+              0,
+              1,
+              0,
+              1
+            ]
+          },
+          {
+            "failure_positions": [
+              0,
+              3
+            ],
+            "history": [
+              0,
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "failure_positions": [
+              1,
+              2
+            ],
+            "history": [
+              1,
+              0,
+              0,
+              1
+            ]
+          },
+          {
+            "failure_positions": [
+              1,
+              3
+            ],
+            "history": [
+              1,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "failure_positions": [
+              2,
+              3
+            ],
+            "history": [
+              1,
+              1,
+              0,
+              0
+            ]
+          }
+        ],
+        "3": [
+          {
+            "failure_positions": [
+              0
+            ],
+            "history": [
+              0,
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "failure_positions": [
+              1
+            ],
+            "history": [
+              1,
+              0,
+              1,
+              1
+            ]
+          },
+          {
+            "failure_positions": [
+              2
+            ],
+            "history": [
+              1,
+              1,
+              0,
+              1
+            ]
+          },
+          {
+            "failure_positions": [
+              3
+            ],
+            "history": [
+              1,
+              1,
+              1,
+              0
+            ]
+          }
+        ],
+        "4": [
+          {
+            "failure_positions": [],
+            "history": [
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      "histories": 16,
+      "status": "PASS",
+      "summary_classes": 5
+    },
+    "W3_attribution_ambiguity": {
+      "environment_world": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "observation_classes": {
+        "(0, 0)": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            1,
+            0
+          ]
+        ],
+        "(0, 1)": [
+          [
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            1,
+            1
+          ]
+        ],
+        "(1, 0)": [
+          [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            0
+          ]
+        ],
+        "(1, 1)": [
+          [
+            1,
+            0,
+            0,
+            1
+          ],
+          [
+            1,
+            0,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            0,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            1
+          ]
+        ]
+      },
+      "probe": {
+        "environment": 1,
+        "environment_world_y": 1,
+        "self_world_y": 0,
+        "version": 0
+      },
+      "self_world": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "status": "PASS",
+      "tables": 16
+    },
+    "W4_square_identity": {
+      "cases": [
+        {
+          "cells": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "evidence": 0,
+          "interaction": 0,
+          "reader": 0,
+          "total": 0
+        },
+        {
+          "cells": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "evidence": 0,
+          "interaction": 1,
+          "reader": 0,
+          "total": 1
+        },
+        {
+          "cells": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "evidence": 0,
+          "interaction": -1,
+          "reader": 1,
+          "total": 0
+        },
+        {
+          "cells": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "evidence": 0,
+          "interaction": 0,
+          "reader": 1,
+          "total": 1
+        },
+        {
+          "cells": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "evidence": 1,
+          "interaction": -1,
+          "reader": 0,
+          "total": 0
+        },
+        {
+          "cells": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "evidence": 1,
+          "interaction": 0,
+          "reader": 0,
+          "total": 1
+        },
+        {
+          "cells": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "evidence": 1,
+          "interaction": -2,
+          "reader": 1,
+          "total": 0
+        },
+        {
+          "cells": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "evidence": 1,
+          "interaction": -1,
+          "reader": 1,
+          "total": 1
+        },
+        {
+          "cells": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "evidence": -1,
+          "interaction": 1,
+          "reader": -1,
+          "total": -1
+        },
+        {
+          "cells": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "evidence": -1,
+          "interaction": 2,
+          "reader": -1,
+          "total": 0
+        },
+        {
+          "cells": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "evidence": -1,
+          "interaction": 0,
+          "reader": 0,
+          "total": -1
+        },
+        {
+          "cells": [
+            1,
+            0,
+            1,
+            1
+          ],
+          "evidence": -1,
+          "interaction": 1,
+          "reader": 0,
+          "total": 0
+        },
+        {
+          "cells": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "evidence": 0,
+          "interaction": 0,
+          "reader": -1,
+          "total": -1
+        },
+        {
+          "cells": [
+            1,
+            1,
+            0,
+            1
+          ],
+          "evidence": 0,
+          "interaction": 1,
+          "reader": -1,
+          "total": 0
+        },
+        {
+          "cells": [
+            1,
+            1,
+            1,
+            0
+          ],
+          "evidence": 0,
+          "interaction": -1,
+          "reader": 0,
+          "total": -1
+        },
+        {
+          "cells": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "evidence": 0,
+          "interaction": 0,
+          "reader": 0,
+          "total": 0
+        }
+      ],
+      "nonzero_interactions": 10,
+      "status": "PASS",
+      "tables": 16
+    },
+    "W5_manual_walkthrough": {
+      "autonomous": false,
+      "bounded": {
+        "bytes_read": 368,
+        "keys": [
+          "review-1",
+          "review-0"
+        ],
+        "truncated": true
+      },
+      "full": {
+        "bytes_read": 683,
+        "keys": [
+          "review-1",
+          "review-0",
+          "action",
+          "feedback"
+        ],
+        "truncated": false
+      },
+      "future_blocked": true,
+      "records": [
+        {
+          "available": 1,
+          "body": "{\"action\":\"left\",\"outcome\":null}",
+          "event": 1,
+          "key": "action",
+          "kind": "experience",
+          "refs": [],
+          "source": {
+            "instance": "worker",
+            "version": "v0"
+          }
+        },
+        {
+          "available": 3,
+          "body": "{\"outcome\":0}",
+          "event": 1,
+          "key": "feedback",
+          "kind": "experience",
+          "refs": [
+            "action"
+          ],
+          "source": {
+            "instance": "worker",
+            "version": "v0"
+          }
+        },
+        {
+          "available": 4,
+          "body": "{\"alternatives\":[\"worker\",\"environment\"]}",
+          "event": 4,
+          "key": "review-0",
+          "kind": "review",
+          "refs": [
+            "action",
+            "feedback"
+          ],
+          "source": {
+            "instance": "queen",
+            "version": "v0"
+          }
+        },
+        {
+          "available": 5,
+          "body": "{\"missing_probe\":\"hold environment fixed\"}",
+          "event": 5,
+          "key": "review-1",
+          "kind": "review",
+          "refs": [
+            "review-0"
+          ],
+          "source": {
+            "instance": "queen",
+            "version": "v1"
+          }
+        }
+      ],
+      "status": "PASS"
+    }
+  }
+}

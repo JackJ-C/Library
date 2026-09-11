@@ -1,0 +1,91 @@
+{
+  "archive": "results/runs/2025e1a1dd74be20bbee4d9405c5300f6bd419c4696231fada2e201bb408dd6c.json.gz",
+  "python": "3.13.5",
+  "sha256_uncompressed": "2025e1a1dd74be20bbee4d9405c5300f6bd419c4696231fada2e201bb408dd6c",
+  "source_sha256": {
+    "library_experiments.py": "695f63df3d0ad905803ba1e06d76a09b1eb23a3d623290251ac0d5f89bb99955",
+    "run_m1_m6.py": "09fa82ef2b84d1aebf84dda5aac53b26ac28781f3594a42ca0f7d608f70c5fc1",
+    "run_m7.py": "0520d5e415d820e3b62e442bfb7426ffdc5104d9f1bc0b1507800a553bcda6b4"
+  },
+  "summary": {
+    "M1_M3": {
+      "all_cases_repaired": 256,
+      "identify_correct": 256,
+      "no_change_needed": 64,
+      "nonzero_corrections": 192,
+      "passive_unresolved": 256,
+      "plain_equal": 256,
+      "validation_regressions": 0
+    },
+    "M4": {
+      "nonlinear_accepted_but_challenge_failed": 256,
+      "payload_fault_validation_rollback": 256,
+      "swapped_provenance_wrong_attribution": 192
+    },
+    "M5": {
+      "aware_identify_correct": 3072,
+      "aware_identify_queries": 6144,
+      "aware_repair_correct": 3072,
+      "aware_repair_queries": 4608,
+      "blind_identify_wrong": 3072,
+      "blind_repair_wrong": 2304,
+      "merge_inconsistent": 3072,
+      "reset_identify_queries": 24576,
+      "reset_repair_queries": 12288,
+      "transitions": 3072
+    },
+    "M6": {
+      "identify_count_by_subset_size": {
+        "8": 3136,
+        "9": 6272,
+        "10": 6272,
+        "11": 4032,
+        "12": 1792,
+        "13": 560,
+        "14": 120,
+        "15": 16,
+        "16": 1
+      },
+      "identify_minimum": 8,
+      "repair_count_by_subset_size": {
+        "4": 16,
+        "5": 192,
+        "6": 1072,
+        "7": 3424,
+        "8": 6756,
+        "9": 8352,
+        "10": 7000,
+        "11": 4176,
+        "12": 1804,
+        "13": 560,
+        "14": 120,
+        "15": 16,
+        "16": 1
+      },
+      "repair_minimum": 4,
+      "subsets": 65536
+    },
+    "active_query_histogram": {
+      "4": 256
+    },
+    "active_remaining_hypotheses": [
+      16
+    ],
+    "identify_query_histogram": {
+      "8": 256
+    },
+    "random_mean_queries": 8.171875,
+    "random_query_histogram": {
+      "5": 1792,
+      "6": 1536,
+      "7": 1024,
+      "8": 5120,
+      "9": 2816,
+      "10": 3072,
+      "11": 768,
+      "12": 256
+    },
+    "random_runs": 16384,
+    "worlds": 256
+  }
+}

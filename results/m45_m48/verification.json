@@ -1,0 +1,30 @@
+[
+  {
+    "phase": "A",
+    "status": "VERIFIED",
+    "sha256": "24775422d6a7c940efc883d4f5e9cf7407bf36b107b296154ee73929f8cef39c",
+    "trajectories": 256,
+    "future_tasks": 40960,
+    "causal_task_executions": 30720,
+    "prechecks": 1852,
+    "exploration_actor_actions": 39528,
+    "ledger_records_checked": 20479,
+    "anonymous_frames_replayed": 4119,
+    "joint_source_model_replays": 224,
+    "scope": "arithmetic/evidence/gating replay plus recorded instance assertions; not independent laboratory"
+  },
+  {
+    "phase": "B",
+    "status": "VERIFIED",
+    "sha256": "7b59f5115a61e0af7495fdff6264334e4d1f10f2beec00d52ad11e5ad9d9421d",
+    "trajectories": 256,
+    "future_tasks": 40960,
+    "causal_task_executions": 30720,
+    "prechecks": 1863,
+    "exploration_actor_actions": 39555,
+    "ledger_records_checked": 20487,
+    "anonymous_frames_replayed": 4152,
+    "joint_source_model_replays": 224,
+    "scope": "arithmetic/evidence/gating replay plus recorded instance assertions; not independent laboratory"
+  }
+]

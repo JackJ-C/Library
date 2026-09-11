@@ -1,0 +1,170 @@
+{
+  "status": "CHECKS_PASS",
+  "python": "3.13.5",
+  "contract_commit": "8ac9103d498c4591447cf47a0afe400d3888e51c",
+  "source_sha256": {
+    "docs/M21_M24_CONTRACT.md": "dee8e0cf49668627c3f41b2d912c0525c2ff18182e421707e789088c12f35af5",
+    "library_m21/__init__.py": "5adbcb7bcda3d7f6de398a4c93e7d947bf0b3d33efee0877009029dd2e3ace94",
+    "library_m21/synthesis.py": "36dff85c35c42858213ce98543e45de7d220768c2bcaf6fb064527382066b3ad",
+    "library_m21/engine.py": "a499d28ac078f0713b1fdf0fb563d093c265da6457184d29b951ed871a9c626d",
+    "library_m21/study.py": "d82855f0978004f09ed9a41bee679f6a84e1de93a03f1a645dcc9f1655327cf8",
+    "library_m21/tests.py": "330e3e87f6d06a69f5b93f195d975446ab0149c25fdaf84b80503363a636ac44",
+    "run_m21_m24.py": "e839ccabc28977b03b840f3e97c9283278c416068e43e641656d8d3a2b9dd332",
+    "tools/verify_m21_m24.py": "1cf6b55ed2bd74ee263b6bf7ce07b4f22fe6b99dfc2267d9a497be3654219d92"
+  },
+  "checks": {
+    "unit_tests_pass": true,
+    "actual_multirefutation_observed": true,
+    "future_domain_separation": true,
+    "plain_information_equivalence": true,
+    "learning_frozen_before_transfer": true,
+    "latent_failure_retained": true,
+    "old_contract_unchanged": true
+  },
+  "tests_run": 29,
+  "summary": {
+    "M21": {
+      "tasks": 12,
+      "accepted": 12,
+      "all_future_correct": 12,
+      "future_cases": 1344,
+      "future_correct": 1344,
+      "refutations": 23,
+      "at_least_two_refutations_then_success": 8,
+      "candidate_attempts": 92447,
+      "scalar_ops": 421448,
+      "oracle_calls": 694
+    },
+    "M22": {
+      "learned_operators": 4,
+      "operator_definitions": [
+        "((x*(x+-1))//2)",
+        "(x-(x*x))",
+        "(x*abs(x))",
+        "(x*x)"
+      ],
+      "spike17_guard_accepted": true,
+      "spike17_guard_future_correct": true,
+      "spike17_no_guard_accepted": false
+    },
+    "M23": {
+      "plan_changed": true,
+      "plans_examined": 24,
+      "pilot_cost_before": {
+        "solved": 6,
+        "cost": 6081
+      },
+      "pilot_cost_after": {
+        "solved": 6,
+        "cost": 4137
+      },
+      "profile_candidate_attempts": 9969,
+      "profile_scalar_ops": 733971,
+      "profile_oracle_calls": 294,
+      "transfer": {
+        "learned": {
+          "tasks": 24,
+          "accepted": 24,
+          "all_future_correct": 24,
+          "future_cases": 2688,
+          "future_correct": 2688,
+          "refutations": 11,
+          "at_least_two_refutations_then_success": 2,
+          "candidate_attempts": 27911,
+          "scalar_ops": 102242,
+          "oracle_calls": 1270
+        },
+        "default": {
+          "tasks": 24,
+          "accepted": 24,
+          "all_future_correct": 24,
+          "future_cases": 2688,
+          "future_correct": 2688,
+          "refutations": 11,
+          "at_least_two_refutations_then_success": 2,
+          "candidate_attempts": 39575,
+          "scalar_ops": 147602,
+          "oracle_calls": 1270
+        },
+        "reverse": {
+          "tasks": 24,
+          "accepted": 24,
+          "all_future_correct": 24,
+          "future_cases": 2688,
+          "future_correct": 2688,
+          "refutations": 9,
+          "at_least_two_refutations_then_success": 0,
+          "candidate_attempts": 26632,
+          "scalar_ops": 89874,
+          "oracle_calls": 1254
+        },
+        "no_macros": {
+          "tasks": 24,
+          "accepted": 0,
+          "all_future_correct": 0,
+          "future_cases": 2688,
+          "future_correct": 0,
+          "refutations": 11,
+          "at_least_two_refutations_then_success": 0,
+          "candidate_attempts": 847103,
+          "scalar_ops": 2209127,
+          "oracle_calls": 70
+        },
+        "plain_json": {
+          "tasks": 24,
+          "accepted": 24,
+          "all_future_correct": 24,
+          "future_cases": 2688,
+          "future_correct": 2688,
+          "refutations": 11,
+          "at_least_two_refutations_then_success": 2,
+          "candidate_attempts": 27911,
+          "scalar_ops": 102242,
+          "oracle_calls": 1270
+        }
+      },
+      "plain_equal": true
+    },
+    "M24": {
+      "latent71_accepted": true,
+      "latent71_errors": [
+        71
+      ],
+      "wrong_reference_errors": 112,
+      "finite_budget_remains": true,
+      "metaconstructors_fixed": true
+    },
+    "learning_cost": {
+      "course_candidate_attempts": 92447,
+      "all_pilot_profile_attempts": 17749,
+      "all_pilot_profile_oracle_calls": 588,
+      "plans_scored": 30,
+      "operator_definition_storage_bytes": 157,
+      "normalizer_and_cpu_cost_not_claimed_free": true
+    }
+  },
+  "strong_goals": {
+    "actual_counterexample_resynthesis": "DEMONSTRATED_IN_TASKS",
+    "derived_operator_learning": "DEMONSTRATED_WITH_GIVEN_CONSTRUCTORS",
+    "search_schedule_learning": "DEMONSTRATED_NOT_BEST_TRANSFER_ORDER",
+    "arbitrary_representation_or_algorithm_invention": "NOT_ESTABLISHED",
+    "unlimited_compute_or_all_unknown_repair": "NOT_ESTABLISHED"
+  },
+  "result_sha256": "a607312fd0ab2ab8f212d5afe5e434b3940e3386cdd5596c1ab52d3a45ba96d5",
+  "archive": "results/m21_m24/runs/a607312fd0ab2ab8f212d5afe5e434b3940e3386cdd5596c1ab52d3a45ba96d5.json.xz",
+  "raw_bytes": 679228,
+  "compressed_bytes": 29352,
+  "supplemental_seed": {
+    "tasks": 24,
+    "accepted": 0,
+    "all_future_correct": 0,
+    "future_cases": 2688,
+    "future_correct": 0,
+    "refutations": 26,
+    "at_least_two_refutations_then_success": 0,
+    "candidate_attempts": 6337295,
+    "scalar_ops": 18691473,
+    "oracle_calls": 113
+  },
+  "frozen_learning_state_sha256": "787ad4f6eb19d5f0ccc5a1d3265fafa01169c518cdb7699da4cde757de227218"
+}
