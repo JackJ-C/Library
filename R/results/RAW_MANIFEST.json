@@ -1,0 +1,59 @@
+{
+  "format": "R-raw-v1",
+  "bytes": 57980,
+  "sha256": "b4dea36e91ab5f9255c9fb9053dfa610ce58b67e7b80a138382ba2b2c5f05e78",
+  "parts": [
+    {
+      "path": "results/raw_parts/000.part",
+      "bytes": 12000,
+      "sha256": "db79985bb59b415cd0ffbd21c98edeab791e46b37612d79563b8ed71b4a1f65f",
+      "git_blob": "15ff8b906beb11be6f32f07dcbdf87e8e08f66e2"
+    },
+    {
+      "path": "results/raw_parts/001.part",
+      "bytes": 12000,
+      "sha256": "c0d8d677807f7b109ea49cf219cd62edd56881ce93634abec73c2fd230d1d96f",
+      "git_blob": "04a63c007ed76318e4d9b124030d2f0358246a98"
+    },
+    {
+      "path": "results/raw_parts/002.part",
+      "bytes": 12000,
+      "sha256": "2be955f6d76b1be102e9258faebf1206f25250e6a6fde837549eacb558fcbb54",
+      "git_blob": "844dc969ec0ab49c95e535ca59a7ed965f708534"
+    },
+    {
+      "path": "results/raw_parts/003.part",
+      "bytes": 12000,
+      "sha256": "2109918bd10a90e247151fc775fa137cafa06f0ed987364de16e262b05664e41",
+      "git_blob": "fdca2941b111cf3f953222fe7f118623e504f46b"
+    },
+    {
+      "path": "results/raw_parts/004.part",
+      "bytes": 9980,
+      "sha256": "ae6ef99c065ab42470b390f85c2a78a80a740af131ec6f68b95c934d7bf7159b",
+      "git_blob": "214533c46379c186718d0a800d984b96585c0757"
+    }
+  ],
+  "files": [
+    {
+      "path": "results/A_f07446c02a350c15c7ae4e32e8ea404ea5ca334238a90a1b3c0caf323fa97f72.json.xz",
+      "raw_bytes": 1767039,
+      "raw_sha256": "f07446c02a350c15c7ae4e32e8ea404ea5ca334238a90a1b3c0caf323fa97f72"
+    },
+    {
+      "path": "results/B_e809646284b98aaff84da348f45960c9f2788cb52f6f985a8a658688f2815831.json.xz",
+      "raw_bytes": 1771996,
+      "raw_sha256": "e809646284b98aaff84da348f45960c9f2788cb52f6f985a8a658688f2815831"
+    },
+    {
+      "path": "results/dev_6bedb9f697f85019ba90e2c25b92d2ee4c8fb79f9d0f9dd06eab99d76ef64683.json.xz",
+      "raw_bytes": 501155,
+      "raw_sha256": "6bedb9f697f85019ba90e2c25b92d2ee4c8fb79f9d0f9dd06eab99d76ef64683"
+    },
+    {
+      "path": "results/dev_98e6270ac738fbe0c80e79a23ad6160bd3fa645d33043e74f1d4a088d5605af4.json.xz",
+      "raw_bytes": 507062,
+      "raw_sha256": "98e6270ac738fbe0c80e79a23ad6160bd3fa645d33043e74f1d4a088d5605af4"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "repository": "JackJ-C/Library",
+  "ref": "52df417978d5e6525d1fbe8558720c02f48d5549",
+  "source": "original M54-M57 package; hashes compared to GitHub",
+  "files": {
+    "library_m54/__init__.py": {
+      "sha256": "61ef8a2d3836201838a692cede0585d1cb3ec3f148e28cb03a9ac072ddc14914",
+      "git_blob": "2c9de49e282e7dc751105ec32c8208699409b48b",
+      "bytes": 85
+    },
+    "library_m54/grammar.py": {
+      "sha256": "3569398bfa0ea32f523ca32bfc850113c83c1daf5151bdd271bdfe0378e87d0f",
+      "git_blob": "9c1aac5038fb073de46c6509dc7efee4f4caae9a",
+      "bytes": 4500
+    },
+    "library_m54/queen.py": {
+      "sha256": "9780b02e2c96ccf7e788da685da16670f453649fc68ffce38fe54329d406fe6d",
+      "git_blob": "e9e31e64cd017bb8ae3d5292303bbc27f6c3eb3c",
+      "bytes": 20477
+    },
+    "library_m54/world.py": {
+      "sha256": "e5d903b41f7e8dbfb4f6cea7b058d67bf05d72336988c998407a4e003010e812",
+      "git_blob": "44783b7a795381fafb13ee75025724891fc738fa",
+      "bytes": 1992
+    },
+    "library_m8/__init__.py": {
+      "sha256": "00cf93c8f78a265743ebba78034d76dbfd90da89754699b944a367166fd08775",
+      "git_blob": "3ef322788845fd432ee062ce48dafb73f2654434",
+      "bytes": 77
+    },
+    "library_m8/core.py": {
+      "sha256": "fc1aca53c55dd962693616ae8055e92a80ccb02d21792e5f89be55ade5051952",
+      "git_blob": "22c04ddd698661ca541663d268008f277d27d0e4",
+      "bytes": 10014
+    }
+  }
+}

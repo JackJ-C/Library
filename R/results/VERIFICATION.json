@@ -1,0 +1,26 @@
+{
+  "status": "VERIFIED",
+  "independent": "separate checker implementation, not a separate laboratory",
+  "phases": [
+    {
+      "phase": "A",
+      "status": "VERIFIED",
+      "raw_sha256": "f07446c02a350c15c7ae4e32e8ea404ea5ca334238a90a1b3c0caf323fa97f72",
+      "online_checks": 1680,
+      "assay_cells": 16800,
+      "origin_checks": 120,
+      "meta_pairs": 72,
+      "diagnostic_replays": 13
+    },
+    {
+      "phase": "B",
+      "status": "VERIFIED",
+      "raw_sha256": "e809646284b98aaff84da348f45960c9f2788cb52f6f985a8a658688f2815831",
+      "online_checks": 1680,
+      "assay_cells": 16800,
+      "origin_checks": 120,
+      "meta_pairs": 72,
+      "diagnostic_replays": 14
+    }
+  ]
+}
