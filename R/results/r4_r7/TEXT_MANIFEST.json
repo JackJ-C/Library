@@ -1,0 +1,38 @@
+{
+  "codec": "standard XZ; contained payload is UTF-8 JSON file records, each with path/content/sha256",
+  "scope": "25 complete text artifacts, NOT the complete A/B raw runs",
+  "archive_sha256": "fefdfdb16957d39bb596a4c584f5fae85b612f7372d764047768f5214e97a6d4",
+  "archive_bytes": 52324,
+  "parts": [
+    {
+      "path": "results/r4_r7/text_parts/000.part",
+      "bytes": 12000,
+      "sha256": "d8f2da6d24ef610bae7c325c77036eb019a02d9df0f3f462b34a34c34f4fb7de",
+      "blob_sha": "63338635b89012d8cfd4b3fcaf4ec10ca7f4a722"
+    },
+    {
+      "path": "results/r4_r7/text_parts/001.part",
+      "bytes": 12000,
+      "sha256": "4f4e21ef4ec83ce8f054890ac5442346cdad46233017251eeebf4f5f30ca95d2",
+      "blob_sha": "82ed237457189e71c50276e27d628709b92f27ef"
+    },
+    {
+      "path": "results/r4_r7/text_parts/002.part",
+      "bytes": 12000,
+      "sha256": "d474733c90f4534f34f375f1b4240c0882d0e1466ef6e6d57ade35203961c413",
+      "blob_sha": "d6be11b7bd4391b9577958c788828591abc0eb91"
+    },
+    {
+      "path": "results/r4_r7/text_parts/003.part",
+      "bytes": 12000,
+      "sha256": "f0cafce69edd11683d6cf6eed375af6718a5eae5caeb47d5ae785a36999d91a7",
+      "blob_sha": "85fbb123170533ba8ecfbe44d6ee81533607a655"
+    },
+    {
+      "path": "results/r4_r7/text_parts/004.part",
+      "bytes": 4324,
+      "sha256": "64091959fb2345ccca2b01db0d34f33298f5f1d1f0527ad512779394a0e72184",
+      "blob_sha": "c7090b0a4801cb946c6fb5d89a8f3d46ade4958b"
+    }
+  ]
+}

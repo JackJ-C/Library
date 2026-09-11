@@ -1,0 +1,34 @@
+{
+  "milestone": "R4-R7",
+  "subjective_experience": "not established",
+  "stable_recursive_enhancement": "both formal batches failed frozen gates",
+  "functional_second_order_monitoring": "both formal batches passed frozen gates",
+  "primary_lineages": 16,
+  "all_method_lineages": 80,
+  "meta_update_attempts": 128,
+  "actual_program_updates": 54,
+  "local_two_link_seed": 8105,
+  "local_test_costs": [263, 232, 224, 232],
+  "local_last_value_is_later_regression": true,
+  "raw_fast_answers_correct": 1074,
+  "tasks_per_arm": 2048,
+  "equal_check_budget": 512,
+  "arm_totals": {
+    "always_check": {"correct": 2048, "total": 2048, "checks": 2048},
+    "blind": {"correct": 1321, "total": 2048, "checks": 512},
+    "fixed": {"correct": 1349, "total": 2048, "checks": 512},
+    "never_check": {"correct": 1074, "total": 2048, "checks": 0},
+    "own": {"correct": 1383, "total": 2048, "checks": 512},
+    "renamed": {"correct": 1383, "total": 2048, "checks": 512},
+    "restored": {"correct": 1383, "total": 2048, "checks": 512},
+    "transplant": {"correct": 1347, "total": 2048, "checks": 512}
+  },
+  "frozen_source_commit": "061c5718af4a1ea8e4893c69ea83d0580cbdb018",
+  "raw_sha256": {
+    "A": "32c07cae182963c09d1eb7396e075358dcbedc19ddfe754c5f39772a0e267a4c",
+    "B": "3d1fed504a261e38e7d35f9365351fe71b5713d4a087655b22e80211421f11a5"
+  },
+  "raw_files_in_git": false,
+  "raw_files_in_complete_package": true,
+  "text_artifacts_losslessly_in_git": 25
+}

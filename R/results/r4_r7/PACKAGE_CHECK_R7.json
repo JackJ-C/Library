@@ -1,0 +1,20 @@
+{
+  "status": "CLEAN_PACKAGE_VERIFICATION_PASS",
+  "package": "R4_R7_complete.zip",
+  "package_sha256": "07f6fa5b877fbd3cb14571cc6094d8852923a77f0e84e4902518a42248c45731",
+  "package_bytes": 2351340,
+  "files": 104,
+  "python": "3.13.5",
+  "all_original_packaged_files_byte_equal": true,
+  "new_tests_in_clean_directory": 32,
+  "independent_archive_replay_A": "VERIFIED",
+  "independent_archive_replay_B": "VERIFIED",
+  "clean_full_world_regeneration": false,
+  "normal_and_optimized_full_regeneration_in_working_directory": true,
+  "all_eight_published_new_source_blobs_match_frozen_source": true,
+  "text_restore_records": 25,
+  "text_restore_idempotent": true,
+  "raw_data_scope": "Full A/B runs and development archives are in the standalone ZIP; Git receives code, contracts, docs, full text records and hashes, not the large raw run archives",
+  "old_R3_frozen_sources_unchanged": true,
+  "old_R3_tests_rerun": 24
+}

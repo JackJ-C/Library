@@ -1,23 +1,24 @@
-# R系：Queen的递归改进与功能性自身模型
+# R系：Queen 的递归改进与自身模型
 
-本目录与`R`分支隔离工作；不修改M系文件、不并回main。
+当前到 **R7**。只在本仓库 `R` 分支的 `R/` 工作，不合并；M原件和根README保持不变。
 
-**R0—R3的首轮结果：功能性自身输出模型与有界元改进通过；严格递归改进门槛未通过；没有据此建立主观意识。**
+[R4—R7研究报告](docs/R4_R7_REPORT.md) · [R7审查与边界](docs/R7_AUDIT.md) · [当前状态](STATUS.md) · [原始任务](TASK.md)
 
-阅读顺序：[任务原文与边界](TASK.md) → [当前状态](STATUS.md) → [R1—R3研究报告](docs/R1_R3_REPORT.md) → [证据与局限审查](docs/R3_AUDIT.md)。正式验证在源码摘要登记后进行，A/B两批分开保留。
+两批分别通过功能性二阶可靠性监控门槛：同一Queen根据自己的真实规划经历预测哪类快判断更容易错，有限复查预算下改善任务表现。局部出现一条相邻两代的递归因果收益，但整体门槛未通过，后期仍会退步。**主观体验未建立。**
 
-代码复用冻结M54 Queen、实际执行/观察路径、编译器和M8账本；副本放在本目录`vendor/`，原文件不改。本期重点是控制自身发令的功能性模型和诊断取证策略，不是复跑M54的全部复杂条件世界。
+## 复现
+
+从此R目录运行（仅Python标准库，实际验证CPython3.13.5）：
 
 ```bash
-cd R
-python3 tools/restore_raw.py
-python3 -m unittest discover -s tests -v
-python3 tools/verify.py
-# 重新运行正式两批；不会改变冻结源文件：
-python3 run.py A
-python3 run.py B
+python -m unittest r4_r7.tests -v
+python run_r4_r7.py A
+python run_r4_r7.py B
+python tools/verify_r4_r7.py both
 ```
 
-实际运行环境为CPython 3.13.5，只有标准库。原始JSON完整无损保存在`results/raw_parts/`；还原器写回本目录的`results/`，不联网、不执行归档中的代码、不覆盖不同内容。配套ZIP也包含展开后的原档。本轮没有需要用户另行上传的正式原档欠账。
+受单次执行时限影响的环境，可用 `tools/execute_r4_parts.py A all`、`A assemble`（B同理）。它只调度同一冻结函数，每次调用结束前回收进程；不是后台自动任务。优化模式用独立缓存，不伪称复用缓存是重跑。
 
-根目录README仍为`2026912.`；所有本期操作只在本目录内。
+完整包已有两批原档，可直接核验，无需先重做研究。Git中的25份完整文字证据可用 `python tools/restore_r7_text.py --apply` 无损恢复；该命令不生成完整A/B原档。Git发布范围见 `results/r4_r7/DELIVERY.json`；摘要和原档索引不能冒充完整原档。旧R1—R3源码、原始分段和报告保留。
+
+原R1—R3结果：[报告](docs/R1_R3_REPORT.md) · [审查](docs/R3_AUDIT.md)。它们不被新结果覆盖，也不代表本期已实现完整意识或开放式RSI。

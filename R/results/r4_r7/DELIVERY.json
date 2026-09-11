@@ -1,0 +1,52 @@
+{
+  "milestone": "R4-R7",
+  "scope": "Only R/ on branch R; no merge",
+  "git_contents": [
+    "frozen source implementations",
+    "frozen contract and source hashes",
+    "Chinese report and audit",
+    "per-cohort and per-trajectory score records",
+    "independent verification summary",
+    "full-data location and hashes"
+  ],
+  "full_raw_runs": [
+    {
+      "path": "results/r4_r7/runs/A_32c07cae182963c09d1eb7396e075358dcbedc19ddfe754c5f39772a0e267a4c.json.xz",
+      "bytes": 651444,
+      "sha256": "9ef2abfd1897dc8e8bbafcfba485717ecb547417f88bf896db7667f433ee7f73",
+      "raw_sha256": "32c07cae182963c09d1eb7396e075358dcbedc19ddfe754c5f39772a0e267a4c",
+      "delivery": "full standalone package; not yet native Git raw path"
+    },
+    {
+      "path": "results/r4_r7/runs/B_3d1fed504a261e38e7d35f9365351fe71b5713d4a087655b22e80211421f11a5.json.xz",
+      "bytes": 655260,
+      "sha256": "04733760fc8ce4d0c738157747ed00cb5fb9f4c059143ebda442800d0e13a9ca",
+      "raw_sha256": "3d1fed504a261e38e7d35f9365351fe71b5713d4a087655b22e80211421f11a5",
+      "delivery": "full standalone package; not yet native Git raw path"
+    },
+    {
+      "path": "results/r4_r7/runs/dev_5934f48839e917153e177405d64485a8e7b3ac21f938bfac423355fdf636b238.json.xz",
+      "bytes": 188024,
+      "sha256": "869a8b1a35025056fa8efefa6c0663ef6e9f07686feb87e36d05020211d5f352",
+      "raw_sha256": "5934f48839e917153e177405d64485a8e7b3ac21f938bfac423355fdf636b238",
+      "delivery": "full standalone package; not yet native Git raw path"
+    },
+    {
+      "path": "results/r4_r7/runs/dev_cb8d36bc7c7e54fa800dbdd87604bfe0c0d0ddb1533349a5ad25974ac75e3597.json.xz",
+      "bytes": 188020,
+      "sha256": "308ff064013b316a4131a6cc0be18c98d9b3a9ce996547f08da80cb0572b622b",
+      "raw_sha256": "cb8d36bc7c7e54fa800dbdd87604bfe0c0d0ddb1533349a5ad25974ac75e3597",
+      "delivery": "full standalone package; not yet native Git raw path"
+    }
+  ],
+  "note": "Complete raw data is in the standalone package. Source and score publication is not a claim all raw XZ bytes were uploaded. Do not repeat the research merely to read the package.",
+  "frozen_before_formal_runs": "061c5718af4a1ea8e4893c69ea83d0580cbdb018",
+  "source_discovery": "GitHub connector text/blob writes available; no local-file upload action returned; no change to user authorizations requested",
+  "new_tests": 32,
+  "old_tests_reexecuted": 24,
+  "normal_and_optimized": {
+    "separate_checkpoints": true,
+    "A": "32c07cae182963c09d1eb7396e075358dcbedc19ddfe754c5f39772a0e267a4c",
+    "B": "3d1fed504a261e38e7d35f9365351fe71b5713d4a087655b22e80211421f11a5"
+  }
+}
