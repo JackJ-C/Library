@@ -1,0 +1,21 @@
+{
+  "status": "CLEAN_EXTRACTION_AND_REPLAY_PASS",
+  "package": "R20_R23_complete.zip",
+  "bytes": 1441563,
+  "sha256": "9c2249933f3c497f23238eab0cd1df511ab25264c061854133dd1bb38428c30c",
+  "archive_files": 120,
+  "payload_files_byte_verified": 119,
+  "frozen_sources": 27,
+  "unique_tests": 28,
+  "python": "3.13.5",
+  "commands_completed": [
+    "python -m unittest r20_r23_recovery.tests -v",
+    "python tools/verify_r23_delivery.py --phase both",
+    "python -O tools/resume_r23.py A 27100"
+  ],
+  "all_16_raw_replayed": true,
+  "fresh_pair_seed": 27100,
+  "fresh_pair_sha256": "dc0258687d33c36c2142329c7bb9900efbe614650bf1a2ae235cef6a2b48e139",
+  "normal_optimized_all_16_reexecuted_before_packaging": true,
+  "scope": "current reproducible subset only; repeated runs are not extra independent samples"
+}

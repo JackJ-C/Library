@@ -1,0 +1,19 @@
+{
+  "stage": "R20-R23 recovery v2",
+  "repository": "JackJ-C/Library",
+  "branch": "R",
+  "write_prefix": "R/",
+  "recovery_base": "3f48d8be2b662116b870bc69c2b7dcaf43f1e4e6",
+  "github_content": "report, audit, evidence-method note, checkpointed runner and independent audit tools, summary and full raw-file hash manifest",
+  "full_raw_github_uploaded": false,
+  "raw_archive_count": 16,
+  "raw_xz_total_bytes": 1293312,
+  "raw_delivery": "R20_R23_complete.zip in the conversation; full formal trajectories including their saved Ledgers",
+  "previous_stage_raw_backlogs": "not changed or claimed resolved by this publication",
+  "frozen_sources_modified": false,
+  "tests": 28,
+  "normal_optimized_plain_all_reexecuted_equal": true,
+  "research_status": "validation complete; stable RSI, calibration coupling, subjective experience not established",
+  "subjective_experience_field": "protocol-identification status, not a consciousness measurement",
+  "next_number": "R24 not registered or implemented"
+}
