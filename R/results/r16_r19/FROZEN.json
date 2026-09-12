@@ -1,0 +1,37 @@
+{
+  "sources": {
+    "r12_r15/__init__.py": "1169ac047ed6ac97ca5035734ba43c5de212b9de7df01f157f4d8b3d2b52de06",
+    "r12_r15/meta.py": "ab218ded2230b9359d90c8a56a850db7736d9523670fded2eca66596912c2d39",
+    "r12_r15/online.py": "8bbc23464d647c894acf744abace522df78ba67d1e988eeebd56ee9532e015c9",
+    "r12_r15/study.py": "c7eda103f04ebc7647f506bda814d40381c2059b4f7e919bce368a3c2e7c4c1d",
+    "r12_r15/tests.py": "164ed0360b2cb7b5f06eb29dd7623a2879275305d12668c334e58a5a5e4a6a05",
+    "r16_r19/__init__.py": "9bdc216ac38c9d2698ef4614f317e510e68476b1de82797a5b1a29f475b12578",
+    "r16_r19/coupled.py": "88e5b029c206b1d67b113977472c768613ca4a09b61f247e418868e2a8ba5bd9",
+    "r16_r19/integrity.py": "0224abc40f7e24f8448c849c93129f6288ff8d804ac4df8ab78ad531885e1ebe",
+    "r16_r19/tests.py": "5eb8c6ee5a6cb8bf40b9ff78cf10f41a483491d51425682874f049b0e127b368",
+    "r4_r7/__init__.py": "b24f52ff3a56fd2d6ec995bc84c6ec29273f19b8257f8843e717df4ca85218b5",
+    "r4_r7/lifecycle.py": "196014354fab1c3143156d984d44e94ec2721ebeacccaab7b61431df2097c250",
+    "r4_r7/monitor.py": "67f99442b3fec3cdd081c201026122f2ae01890cd8284729abae1687e0150288",
+    "r4_r7/search.py": "ab515fe9913a4e92183fead52e450683d11764ecacfa024ffe0db6f0a54d7a94",
+    "r4_r7/study.py": "dad50be685ca6c8ebe2b035627414bea7aceaca4c97aaeae3726e6b8d5546f01",
+    "r4_r7/tests.py": "cf1a0d2be6afc308739255c2c489124b7d3bd64e56b8e40d42044d4581f49cd8",
+    "run_r16_r19.py": "1e8ce7fc055efc5c2b363de9a5368df96e7c9d6fce9a45601ab601d536eb7255",
+    "src/__init__.py": "feb0a1fc37e93efc707b0cef52c7e285b5d7755f9a6905445dd2ba7d66d84123",
+    "src/core.py": "efa0fb5954aea533ec95bc95933f83c9c4b92fa5f55ef5ca53d00041986a01c0",
+    "src/study.py": "5ea5273ea63a81dcbb236840912adbb9214e7f6b5ca5719f857f838542d9e6f4",
+    "tools/verify_r16_r19.py": "752b176bebada2ccdbb828b4b0047f22f50f6bfbd0f77e6be70bb6b5d0861aa7",
+    "vendor/library_m54/__init__.py": "61ef8a2d3836201838a692cede0585d1cb3ec3f148e28cb03a9ac072ddc14914",
+    "vendor/library_m54/grammar.py": "3569398bfa0ea32f523ca32bfc850113c83c1daf5151bdd271bdfe0378e87d0f",
+    "vendor/library_m54/queen.py": "9780b02e2c96ccf7e788da685da16670f453649fc68ffce38fe54329d406fe6d",
+    "vendor/library_m54/world.py": "e5d903b41f7e8dbfb4f6cea7b058d67bf05d72336988c998407a4e003010e812",
+    "vendor/library_m8/__init__.py": "00cf93c8f78a265743ebba78034d76dbfd90da89754699b944a367166fd08775",
+    "vendor/library_m8/core.py": "fc1aca53c55dd962693616ae8055e92a80ccb02d21792e5f89be55ade5051952"
+  },
+  "phases": {
+    "dev": [0, 1, 2, 3],
+    "A": [13100, 13101, 13102, 13103, 13104, 13105, 13106, 13107, 13108, 13109, 13110, 13111],
+    "B": [14100, 14101, 14102, 14103, 14104, 14105, 14106, 14107, 14108, 14109, 14110, 14111]
+  },
+  "methods": ["coupled", "pilot", "plain"],
+  "contract_sha256": "bb98ddd4138b27fa54fd24603f94dc68aeb72000c0c098c05cb6844300cb5696"
+}
