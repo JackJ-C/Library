@@ -1,0 +1,29 @@
+{
+  "status": "CLEAN_EXTRACTION_TESTS_REPLAY_AND_ACTUAL_RERUN_PASS",
+  "package": "R0_R27_final_handoff_complete.zip",
+  "bytes": 13277844,
+  "sha256": "aee3e1e907cd6d4084c5c2687c69a5d4a2371743330afc61cbbde206417c9ea4",
+  "members": 223,
+  "payload_files_byte_verified": 222,
+  "frozen_sources": 33,
+  "new_tests": 27,
+  "legacy_r23_tests_reexecuted_in_worktree": 28,
+  "separate_post_run_comparator_tests": 8,
+  "python": "3.13.5",
+  "all_16_raw_independently_replayed_with_disclosed_json_comparator_repair": true,
+  "all_16_normal_optimized_recomputed_before_packaging": true,
+  "all_16_plain_controls_actually_recomputed": true,
+  "clean_actual_pair_seed": 37100,
+  "clean_actual_pair_sha256": "b1a5ec326923c2276efd6bf754a26b2d32a954e78234b59c07f9513356a18480",
+  "original_legacy_packages_included": 4,
+  "full_new_source_and_raw_not_fully_on_github": true,
+  "scientific_joint_target": "NOT_ESTABLISHED",
+  "commands": [
+    "python -m unittest r24_r27.tests -v",
+    "python tools/check_r27_comparator.py",
+    "python tools/verify_r27_archive.py A",
+    "python tools/verify_r27_archive.py B",
+    "python -m r24_r27.run A 37100 --plain"
+  ],
+  "scope": "frozen executable subset plus original legacy packages; no whole-repository completeness or consciousness conclusion; replays are not additional samples"
+}
