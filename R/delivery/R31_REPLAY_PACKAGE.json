@@ -1,0 +1,19 @@
+{
+  "repository": "JackJ-C/Library",
+  "branch": "R",
+  "destination": "R/delivery/Library_R31_full_backup.zip",
+  "original_conversation_filename": "Library_R31_恢复与补充核验.zip",
+  "status": "PENDING_BINARY_UPLOAD_NOT_VERIFIED_ON_GITHUB",
+  "bytes": 2665933,
+  "sha256": "577892b1934b6db2935a4630ad018a6699241f704c11cf1d3f20bc357ac5d8d2",
+  "zip_members": 147,
+  "manifest_verified_files": 146,
+  "formal_xz_archives": 48,
+  "frozen_sha256_entries_verified": 14,
+  "all_archive_xz_and_raw_json_hashes_match_batch_summaries": true,
+  "verification_scope": "Local archive integrity during upload preparation; no new scientific samples or experiments",
+  "preserve_original_bytes": true,
+  "upload_strategy": "Store original complete ZIP in R/delivery without unpacking over current branch files",
+  "does_not_claim_native_original_paths_restored": true,
+  "existing_r31_package_manifest": "R/delivery/R31_PACKAGE.json is separate and unchanged"
+}

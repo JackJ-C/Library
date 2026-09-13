@@ -1,0 +1,168 @@
+{
+  "A": {
+    "frozen_conclusions": {
+      "updates": 5,
+      "strict_empirical_links": 0,
+      "adjacent_link_trajectories": 0,
+      "regressions": 0,
+      "changed_proposals": 6,
+      "mean_dimension": 2.0208333333333335,
+      "mean_classes_of_eight": 2.8333333333333335,
+      "geometry_longitudinal_gain": -0.0013261959876543217,
+      "geometry_gain_95_bootstrap": [
+        -0.003978587962962965,
+        0.0
+      ],
+      "local_recursive_gain": -0.000694444444444444,
+      "local_recursive_gain_95_bootstrap": [
+        -0.002083333333333332,
+        0.0
+      ],
+      "frozen_longitudinal_gain": -0.0013261959876543217,
+      "frozen_gain_95_bootstrap": [
+        -0.003978587962962965,
+        0.0
+      ],
+      "all_graph_reconstructions_identical": true,
+      "all_revoke_checks_pass": true,
+      "geometry_benefit_gate": false,
+      "finite_recursion_gate": false
+    },
+    "modes": {
+      "space": {
+        "mean_test_loss": 0.08404465663580246,
+        "updates": 5,
+        "regressions": 0
+      },
+      "raw": {
+        "mean_test_loss": 0.08271846064814814,
+        "updates": 3,
+        "regressions": 0
+      },
+      "frozen": {
+        "mean_test_loss": 0.08271846064814814,
+        "updates": 4,
+        "regressions": 0
+      }
+    }
+  },
+  "B": {
+    "frozen_conclusions": {
+      "updates": 4,
+      "strict_empirical_links": 0,
+      "adjacent_link_trajectories": 0,
+      "regressions": 1,
+      "changed_proposals": 6,
+      "mean_dimension": 1.7291666666666667,
+      "mean_classes_of_eight": 2.375,
+      "geometry_longitudinal_gain": -0.0006510416666666661,
+      "geometry_gain_95_bootstrap": [
+        -0.0027850115740740734,
+        0.0008318865740740752
+      ],
+      "local_recursive_gain": 0.0,
+      "local_recursive_gain_95_bootstrap": [
+        0.0,
+        0.0
+      ],
+      "frozen_longitudinal_gain": 0.0,
+      "frozen_gain_95_bootstrap": [
+        0.0,
+        0.0
+      ],
+      "all_graph_reconstructions_identical": true,
+      "all_revoke_checks_pass": true,
+      "geometry_benefit_gate": false,
+      "finite_recursion_gate": false
+    },
+    "modes": {
+      "space": {
+        "mean_test_loss": 0.08880690586419752,
+        "updates": 4,
+        "regressions": 1
+      },
+      "raw": {
+        "mean_test_loss": 0.08815586419753087,
+        "updates": 2,
+        "regressions": 1
+      },
+      "frozen": {
+        "mean_test_loss": 0.08880690586419752,
+        "updates": 4,
+        "regressions": 1
+      }
+    }
+  },
+  "main_trajectory_count": 16,
+  "all_trajectory_count": 48,
+  "main_actual_cost": {
+    "actual_queries": 10534,
+    "ast_ops": 691357,
+    "feature_ops": 899953,
+    "paid_probe_cost": 42893
+  },
+  "all_actual_cost": {
+    "actual_queries": 31652,
+    "ast_ops": 2056325,
+    "feature_ops": 2703880,
+    "paid_probe_cost": 128915
+  },
+  "main_all_engine_costs": {
+    "proposal_cost": {
+      "allocation_ast_ops": 519270,
+      "intervention_cache_hits": 20390,
+      "intervention_requests": 23808,
+      "interventions_executed": 3418,
+      "loss_requests": 41016,
+      "simulated_queries": 36845,
+      "simulated_query_price": 172504,
+      "task_ast_ops": 2914781,
+      "task_cache_hits": 37247,
+      "task_feature_ops": 3133750,
+      "task_loss_requests": 47852
+    },
+    "adoption_cost": {
+      "allocation_ast_ops": 56880,
+      "intervention_cache_hits": 4916,
+      "intervention_requests": 5472,
+      "interventions_executed": 556,
+      "loss_requests": 6672,
+      "simulated_queries": 18696,
+      "simulated_query_price": 85185,
+      "task_ast_ops": 1503041,
+      "task_feature_ops": 1589545,
+      "task_loss_requests": 7784,
+      "task_cache_hits": 2360
+    },
+    "evaluator_cost": {
+      "allocation_ast_ops": 66528,
+      "intervention_cache_hits": 4524,
+      "intervention_requests": 5184,
+      "interventions_executed": 660,
+      "loss_requests": 7920,
+      "simulated_queries": 26861,
+      "simulated_query_price": 120431,
+      "task_ast_ops": 2172759,
+      "task_feature_ops": 2283241,
+      "task_loss_requests": 9240,
+      "task_cache_hits": 1427
+    }
+  },
+  "posthoc_counts": {
+    "rounds": 96,
+    "rounds_with_test_better_available": 54,
+    "rounds_proposing_test_better": 13,
+    "rejected_test_better_proposals": 7,
+    "adopted_test_better": 6,
+    "adopted_test_worse": 1,
+    "adopted_test_tie": 2,
+    "pilot_equal_pairs": 1339,
+    "equal_pairs_split_on_test": 650,
+    "rounds_with_alias_split": 81,
+    "mean_pilot_classes": 2.6041666666666665,
+    "mean_test_response_classes": 3.6458333333333335,
+    "rounds_noninitial_parent": 15,
+    "rounds_positive_gamma_previous": 0,
+    "rounds_positive_gamma_initial": 0
+  }
+}

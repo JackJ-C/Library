@@ -1,0 +1,76 @@
+{
+  "post_freeze_read_only": true,
+  "raw_unchanged": true,
+  "tests": [
+    {
+      "case": "unaltered_json_roundtrip",
+      "passed": true
+    },
+    {
+      "case": "summary",
+      "frozen_verifier_accepts_modified_copy": true,
+      "supplemental_rejects": true,
+      "reason": "aggregate summary not derived from raw execution",
+      "passed": true
+    },
+    {
+      "case": "mean",
+      "frozen_verifier_accepts_modified_copy": true,
+      "supplemental_rejects": true,
+      "reason": "evaluation means/block linkage",
+      "passed": true
+    },
+    {
+      "case": "ranking",
+      "frozen_verifier_accepts_modified_copy": true,
+      "supplemental_rejects": true,
+      "reason": "unverified proposal ranking: primary",
+      "passed": true
+    },
+    {
+      "case": "check_link",
+      "frozen_verifier_accepts_modified_copy": true,
+      "supplemental_rejects": true,
+      "reason": "check losses not linked to executed responses",
+      "passed": true
+    },
+    {
+      "case": "simulation_cost",
+      "frozen_verifier_accepts_modified_copy": true,
+      "supplemental_rejects": true,
+      "reason": "proposal logical/AST/query cost mismatch",
+      "passed": true
+    },
+    {
+      "case": "geometry",
+      "frozen_verifier_accepts_modified_copy": true,
+      "supplemental_rejects": true,
+      "reason": "space round/proposal linkage",
+      "passed": true
+    },
+    {
+      "case": "binding",
+      "frozen_verifier_accepts_modified_copy": true,
+      "supplemental_rejects": true,
+      "reason": "actual complete bundle binding",
+      "passed": true
+    },
+    {
+      "case": "certificate",
+      "frozen_verifier_accepts_modified_copy": true,
+      "supplemental_rejects": true,
+      "reason": "check losses not linked to executed responses",
+      "passed": true
+    },
+    {
+      "case": "previous_flag",
+      "frozen_verifier_accepts_modified_copy": true,
+      "supplemental_rejects": true,
+      "reason": "derived round claim: previous_adopted",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "count": 10,
+  "meaning": "coverage gaps reproduced; neither historical results nor learner were changed"
+}

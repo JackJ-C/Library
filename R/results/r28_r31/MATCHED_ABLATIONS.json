@@ -1,0 +1,47 @@
+{
+  "scope": "96 matched rounds on 16 primary paths; not independent sustained routes",
+  "counts": {
+    "raw": {
+      "changed_proposals": 12,
+      "changed_successors": 4,
+      "space_better": 2,
+      "space_worse": 2,
+      "tie": 92
+    },
+    "collapsed": {
+      "changed_proposals": 12,
+      "changed_successors": 4,
+      "space_better": 2,
+      "space_worse": 2,
+      "tie": 92
+    },
+    "shuffled": {
+      "changed_proposals": 16,
+      "changed_successors": 5,
+      "space_better": 3,
+      "space_worse": 2,
+      "tie": 91
+    },
+    "previous": {
+      "changed_proposals": 3,
+      "changed_successors": 1,
+      "space_better": 0,
+      "space_worse": 1,
+      "tie": 95
+    },
+    "initial": {
+      "changed_proposals": 3,
+      "changed_successors": 1,
+      "space_better": 0,
+      "space_worse": 1,
+      "tie": 95
+    },
+    "graph": {
+      "changed_proposals": 0,
+      "changed_successors": 0,
+      "space_better": 0,
+      "space_worse": 0,
+      "tie": 96
+    }
+  }
+}
