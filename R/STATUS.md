@@ -1,4 +1,4 @@
-# R系当前状态：R31正式交付与补充资料整合
+# R系当前状态：R31正式交付、补充资料及完整备份已归档
 
 统一入口：[R31_HANDOFF.md](R31_HANDOFF.md)。正式报告：[R28—R31完整报告](docs/R28_R31_REPORT.md)；正式摘要：[PUBLIC_SUMMARY.json](results/r28_r31/PUBLIC_SUMMARY.json)；逐轨迹成绩：[TRAJECTORY_SCORES.tsv](results/r28_r31/TRAJECTORY_SCORES.tsv)；原档清单：[ARCHIVE_MANIFEST.tsv](results/r28_r31/ARCHIVE_MANIFEST.tsv)。
 
@@ -20,14 +20,16 @@ R28编入统一模型、反例与消融；R29/R30将有限干预响应空间接�
 
 上一恢复执行的48份原档与正式清单逐字节一致；其35项冻结测试、18项R28构造诊断、10项新增核验覆盖测试在补充报告分别登记。10项不能与原正式交付的另一套12项混称同一测试套件。本次上传操作只重新检查文件完整性，没有新增科研实验或样本。
 
-## 完整包尚待一次文件上传
+## 完整备份已上传并归位
 
-已为完整原包准备便于上传的文件名Library_R31_full_backup.zip：2665933字节、147个文件，包含全部48份XZ、两批完整SUMMARY、逐档审查回执、事后诊断明细和原R28材料。包内146项字节清单、14项冻结哈希及48份XZ/原始JSON双摘要均在本次上传准备中核对一致。
+完整文件：[Library_R31_full_backup.zip](delivery/Library_R31_full_backup.zip)，位于R分支的`R/delivery/`。2665933字节、147个文件，包含全部48份XZ、两批完整SUMMARY、逐档审查回执、事后诊断明细和原R28材料。原上传准备时，包内146项字节清单、14项冻结哈希及48份XZ/原始JSON双摘要均已核对一致。
 
-完整ZIP尚未由本次自动上传到GitHub。Git现有报告、源码和摘要不等于全部二进制原档已到达。按[一次网页上传说明](delivery/README.md)，把一个完整ZIP放到R/delivery/即可归档备份；不要将旧补丁再应用到当前R。包内历史STATUS不覆盖本文件。当前原生路径未全铺开，复现应使用隔离解压的完整包。
+用户上传提交`e1cd20b07c0d728da613f0faf792e0d144f9bb6f`最初将ZIP放在R分支根目录。现按用户“能调整一下吗”的要求，仅将该ZIP移动到`R/delivery/`并同步导航及交付清单。原路径与目标路径引用同一Git blob `bc395268514dac95177f45d4de1105e43a57fc56`；本次重新计算的本地原包大小、Git blob与SHA-256一致，ZIP的147项成员CRC通过。未重新压缩或修改包内文件，旧上传提交仍保留。
+
+完整ZIP已在Git中，不再处于待上传状态。详见[交付包说明](delivery/README.md)及[机器可读登记](delivery/R31_REPLAY_PACKAGE.json)。不需要重新上传，也不要将旧补丁再应用到当前R。包内历史STATUS不覆盖本文件；归档内容未全铺到原生路径，复现应隔离解压完整包。
 
 ## 科学边界与接手点
 
 空间仍为有限模拟干预响应伪度量，不是开放式因果世界；几何构造器与语法由研究者提供。总体风险证书UNKNOWN，经验性采用不是认证定理成功。主观体验未测量。旧R27缺失源码／数据及中断开发v0/v1档案未借本次补称完整。
 
-研究编号止于R31，不登记或启动R32。唯一仓库JackJ-C/Library，唯一写分支R，所有本次变动仅在R/。不改M/main/根README/冻结源码，不建PR、不并回main、不强推、不启用自动工作流或付费算力。
+研究编号止于R31，不登记或启动R32。唯一仓库JackJ-C/Library，唯一写分支R。此次路径整理的唯一R/目录外变化为移除根目录的Library_R31_full_backup.zip，其完整内容移至R/delivery/；其余变动仅为R/内交付导航和登记。不改M/main/根README/冻结源码，不建PR、不并回main、不强推、不启用自动工作流或付费算力。

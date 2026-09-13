@@ -1,29 +1,35 @@
-# R系交付包：只需上传一个ZIP
+# R系交付包：R31完整备份已归档
 
-## 待上传的R31恢复与补充核验包
+## 已上传并归位的R31恢复与补充核验包
 
-目标：`R`分支的`R/delivery/Library_R31_full_backup.zip`。
+当前文件：[Library_R31_full_backup.zip](Library_R31_full_backup.zip)。所在分支为`R`，完整路径为`R/delivery/Library_R31_full_backup.zip`。不需要重新上传或应用旧补丁。
 
-| 校验项 | 期望值 |
+| 校验项 | 已核对值 |
 |---|---|
 | 文件大小 | 2665933字节 |
+| Git blob SHA | `bc395268514dac95177f45d4de1105e43a57fc56` |
 | SHA-256 | `577892b1934b6db2935a4630ad018a6699241f704c11cf1d3f20bc357ac5d8d2` |
 | ZIP内文件数 | 147 |
 | 正式XZ原始数据 | 48份，A/B各24份 |
 
-本次补交工具已成功上传文本及源码，但完整本地ZIP尚未自动传入GitHub。这个清单只是预期文件身份，不是上传成功证明。此前R31_PACKAGE.json属于另一份既有交付登记，不覆盖、不混同。
+用户在提交`e1cd20b07c0d728da613f0faf792e0d144f9bb6f`将完整ZIP上传到R分支的仓库根目录。随后按用户要求将该文件移动到本目录：目标直接引用原Git blob，并移除根目录旧路径，未重新压缩、未修改包内内容。原上传提交仍在历史中。
 
-## 网页操作
+本次整理重新对本地原包计算文件大小、Git blob和SHA-256，均与上传文件及既有交付登记一致；ZIP的147个成员通过CRC检查。原交付准备时的146项文件清单、14项冻结哈希和48份原档双摘要核验记录仍保留。本次位置整理没有新增科研实验或样本。
 
-1. 打开本目录，确认左上方分支显示`R`，目录路径是`Library / R / delivery`。
-2. 点击`Add file`，选择`Upload files`。
-3. 拖入从当前会话下载的`Library_R31_full_backup.zip`。保持ZIP，不要解压，不要上传.patch。
-4. 提交说明填写`R31: upload complete replay and audit backup`。选择直接提交到`R`分支（`Commit directly to the R branch`），然后点击提交按钮。不要选main，不需要新建分支或Pull Request。
+机器可读登记见[R31_REPLAY_PACKAGE.json](R31_REPLAY_PACKAGE.json)。此前`R31_PACKAGE.json`属于另一份既有交付登记，不覆盖、不混同。
 
-若页面出现保护规则或权限错误，应停止并保留具体提示，不改选main、不强推。
+## 使用方式
 
-上传单个ZIP不会覆写其中的旧STATUS或源码，它只新增一个归档文件。该归档保存147个文件的完整内容；仓库内原生A/B原档目录仍可能不存在。需要运行时，将ZIP解压到隔离目录，再在包内R目录执行`python tools/verify_r31_delivery.py`。
+将本目录的完整ZIP下载并解压到新的隔离目录，再在包内R目录执行：
 
-## 本次补交边界
+```bash
+python tools/verify_r31_delivery.py
+```
 
-只在JackJ-C/Library的R分支、R/路径内增加资料和更新导航。原M系、main、根README、冻结源码和正式原始结论不改动。未启动新实验，也没有新增R32。
+完整运行与补充核验顺序见[统一交接入口](../R31_HANDOFF.md)。不要把原包解压覆盖当前分支，也不要把基于旧HEAD的增量补丁重新应用到当前R。
+
+这是147个文件完整内容的归档备份，不等于所有文件已经分别铺到仓库原生路径。包内旧STATUS和“待发布”说明保留其生成时的历史状态；当前发布状态以本目录及`R/STATUS.md`为准。
+
+## 本次整理边界
+
+只在JackJ-C/Library的R分支移动这一个ZIP并更新交付导航。唯一R/目录外变化是移除该ZIP的原根目录路径；完整内容保留于本目录。M系、main、根README、冻结源码和正式研究结论不改动，不并回main、不强推、不启动新实验、不新增R32。
