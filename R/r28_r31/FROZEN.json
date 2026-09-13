@@ -1,0 +1,48 @@
+{
+  "stage": "R29-R31",
+  "baseline_R": "3c51492efc01a2a70be730008cd2fcf749b9afe6",
+  "task_commit": "ebcb5d29a219f7abe858ac75e48641f0ec61da8b",
+  "created_utc": "2026-09-13T15:31:26.514919+00:00",
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "development_seeds": [
+    0,
+    1
+  ],
+  "formal_A": [
+    43100,
+    43101,
+    43102,
+    43103,
+    43104,
+    43105,
+    43106,
+    43107
+  ],
+  "formal_B": [
+    44100,
+    44101,
+    44102,
+    44103,
+    44104,
+    44105,
+    44106,
+    44107
+  ],
+  "status": "FROZEN_BEFORE_FORMAL",
+  "sha256": {
+    "src/core.py": "efa0fb5954aea533ec95bc95933f83c9c4b92fa5f55ef5ca53d00041986a01c0",
+    "r4_r7/search.py": "ab515fe9913a4e92183fead52e450683d11764ecacfa024ffe0db6f0a54d7a94",
+    "r20_r23_recovery/racing.py": "3dc235af212f0f754c31b219132540c4fb70392930973f76c35563dcb2ad7e0c",
+    "vendor/library_m54/grammar.py": "3569398bfa0ea32f523ca32bfc850113c83c1daf5151bdd271bdfe0378e87d0f",
+    "vendor/library_m54/queen.py": "9780b02e2c96ccf7e788da685da16670f453649fc68ffce38fe54329d406fe6d",
+    "vendor/library_m54/world.py": "e5d903b41f7e8dbfb4f6cea7b058d67bf05d72336988c998407a4e003010e812",
+    "vendor/library_m8/core.py": "fc1aca53c55dd962693616ae8055e92a80ccb02d21792e5f89be55ade5051952",
+    "r28_r31/run.py": "c3295d16af0e50e82e8a1cdabcdf83b8b2aa48aa1c73609480a90c2847504710",
+    "r28_r31/verify.py": "e7a0c5b35cb2bf32b8b84d05bef39690fdc24db01b680d3a6ea4d83d3cac703a",
+    "r28_r31/space.py": "ff7ebdf34d661e9dd3c462908faa0bbc534d0e440c7ec88ba92c5337eac9fb8d",
+    "r28_r31/study.py": "79b0335aa8ffa6552f7554d782a533e2203d1e45611ce2272e132295cc813384",
+    "r28_r31/tests.py": "eef5ccc93e4fc2a7aae4b72e1d6e8e2f527c4015df11fedefa38c41354ac2c06",
+    "r28_r31/__init__.py": "92e233fc8d89e4d05db7bb291eb77fb149f8dce3d6d61fb83d6aeb211713c8ae",
+    "r28_r31/PROTOCOL.md": "44208ade092eaa92495ba90a2a7ab04dea4dbbc5c192de8e0562bc2e5080339c"
+  }
+}
