@@ -1,0 +1,13 @@
+{
+  "artifact_filename": "Library_R28_R31_完整交付_20260913.zip",
+  "location": "本次会话交付文件；压缩包及48份XZ原档未写入Git",
+  "bytes": 2607342,
+  "sha256": "c33357490759f00ece7c1c6be4a20ed3c6cf669110f0ede5399ea1e56d3e720d",
+  "zip_files": 96,
+  "xz_formal_archives": 48,
+  "frozen_commit": "f7204df9c713b428e22b6106ef8d6569e3bc20aa",
+  "core_results_publication_commit": "c1dfa0031557f57840fa52ca4847af310e3e35de",
+  "package_scope": "R28-R31当前实验可运行子集、原统一模型和完整原始结果，不是Library全分支镜像",
+  "validation": "ZIP全部成员CRC通过，48份XZ及解压JSON逐项SHA-256匹配，14项冻结内容匹配",
+  "status": "EXPERIMENT_COMPLETED_WITH_NEGATIVE_RESULTS"
+}
