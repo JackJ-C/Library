@@ -1,0 +1,11 @@
+{
+  "created_utc": "2026-09-20T07:18:36.189427+00:00",
+  "reason": "first foreground tool call exceeded 45 seconds after 10 completed and verified trajectories; no running research process remained",
+  "path": "r32_r37/recovery/resume_chunks.py",
+  "sha256": "3e5e76f894f6ba231c86556b19cbb202c2ef3236e2adfd4529401579ec5f7b68",
+  "immutable_recovery_freeze_sha256": "70737f516271cb77132d572cbd2b48f0eaf8bfc378375cfe7266d07bcdfb9f3d",
+  "scientific_changes": false,
+  "existing_valid_trajectories": 10,
+  "algorithm_seeds_budgets_and_verifier_unchanged": true,
+  "missing_original_theory_and_protocol_still_not_reconstructed": true
+}

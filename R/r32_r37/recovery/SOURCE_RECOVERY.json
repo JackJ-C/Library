@@ -1,0 +1,27 @@
+{
+  "baseline_R": "9a9dd182e6abdd3a05be83a357d79a5ea46cc396",
+  "verified_original_sources": [
+    "r32_r37/closure.py",
+    "r32_r37/experiment.py",
+    "r32_r37/space.py",
+    "src/core.py",
+    "r4_r7/search.py",
+    "r20_r23_recovery/racing.py",
+    "vendor/library_m54/grammar.py",
+    "vendor/library_m54/queen.py",
+    "vendor/library_m54/world.py",
+    "vendor/library_m8/core.py",
+    "r28_r31/space.py",
+    "r28_r31/study.py"
+  ],
+  "missing_originals": [
+    "r32_r37/audit_tests.py",
+    "r32_r37/replay_r31.py",
+    "r32_r37/tests.py",
+    "r32_r37/verify.py",
+    "r32_r37/THEORY.md",
+    "r32_r37/PROTOCOL.md"
+  ],
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "original_complete_protocol_recovered": false
+}

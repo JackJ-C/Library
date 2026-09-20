@@ -1,0 +1,9 @@
+{
+  "scope": "new operational/post-frozen read-only explanatory files; no original learning algorithm changes",
+  "sha256": {
+    "summarize_results.py": "dbd11f705781dcd6548a671bad10e5d6d22a597aa7ae951474cb268308f74ff4",
+    "family_checks.py": "5a30689cf08c64c0d373d4996113c386ee9a502f1172b5f9f0f24192c36c78d4",
+    "FAMILY_THEOREM_SUPPLEMENT.md": "9a2945f67c46b41f677e477ce35a7db000acf951d18d432c6a1352c12bfe3988",
+    "resume_chunks.py": "3e5e76f894f6ba231c86556b19cbb202c2ef3236e2adfd4529401579ec5f7b68"
+  }
+}

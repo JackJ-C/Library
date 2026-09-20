@@ -1,0 +1,45 @@
+{
+  "repository": "JackJ-C/Library",
+  "ref": "9a9dd182e6abdd3a05be83a357d79a5ea46cc396",
+  "path": "R/r32_r37/R36_START.md",
+  "git_blob_sha": "370335da5bf4866f6122963f076513284435a7aa",
+  "reported_A": {
+    "legacy": {
+      "mean_test_loss": 0.08314646026234568,
+      "updates": 9,
+      "regressions": 4,
+      "permutation_metric_changes": 176
+    },
+    "measured": {
+      "mean_test_loss": 0.08382161458333333,
+      "updates": 8,
+      "regressions": 4,
+      "permutation_metric_changes": 0
+    },
+    "raw": {
+      "mean_test_loss": 0.08329113618827161,
+      "updates": 7,
+      "regressions": 4,
+      "permutation_metric_changes": 0
+    },
+    "frozen": {
+      "mean_test_loss": 0.08380353009259259,
+      "updates": 8,
+      "regressions": 4,
+      "permutation_metric_changes": 0
+    },
+    "certified": {
+      "mean_test_loss": 0.08321277006172839,
+      "updates": 10,
+      "regressions": 6,
+      "permutation_metric_changes": 0
+    },
+    "plain": {
+      "mean_test_loss": 0.08382161458333333,
+      "updates": 8,
+      "regressions": 4,
+      "permutation_metric_changes": 0
+    }
+  },
+  "scope": "historical connector-read aggregate; original raw archives unavailable"
+}
