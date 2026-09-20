@@ -1,0 +1,31 @@
+{
+  "stage": "R42",
+  "date": "2026-09-21",
+  "repository": "JackJ-C/Library",
+  "branch": "R",
+  "archive_filename": "Library_R42_互观与行动位置_20260921.zip",
+  "intended_archive_path": "R/delivery/Library_R42_互观与行动位置_20260921.zip",
+  "archive_bytes": 4274849,
+  "archive_members": 582,
+  "archive_sha256": "fd188f424a25ecc944a59a714e59d6c6c31f398aaf61038e5782aaba3aeeed11",
+  "archive_git_blob": "35e23bb78c53b2cd516ab6fc6230a520a2c39b4a",
+  "archive_crc": "PASS",
+  "file_manifest": "PASS",
+  "formal_archives": 177,
+  "formal_execution_receipts": 177,
+  "formal_independent_path_audit_receipts": 177,
+  "additional_restoration_archives": 4,
+  "frozen_sha256": "7bdd1f6334576737f6d7a4c909f17e5f3b685db3ef19e2ccbb5aab22f444a172",
+  "formal_freeze_commit": "b7efaa853603942ae0e807d078c89369eba73b6b",
+  "local_delivery_status": "COMPLETE_AND_FRESH_EXTRACTION_TESTED",
+  "remote_archive_status": "NOT_UPLOADED_BY_THIS_REGISTRATION",
+  "remote_documents_commit": "207a119991ed219f1332aa53d11c2dd81c4dc4ae",
+  "remote_documents": ["R/r42/TASK.md", "R/r42/FREEZE_RECORD.md", "R/r42/THEORY.md", "R/r42/PROTOCOL.md", "R/r42/RESULTS.md", "R/STATUS.md"],
+  "verified_frozen_document_blobs": {
+    "R/r42/THEORY.md": "e61b51fa8886a6630d5771bb1e33937b73bc60de",
+    "R/r42/PROTOCOL.md": "e55ddbb9bb2a83ee1941f5ed04cbfa55a42f7f63"
+  },
+  "archive_all_paths_under": "R/r42/",
+  "main_unchanged_expected": "15dd68540c17753b6faf2c26f6278d314037fe0b",
+  "note": "This records the completed local package, not a successful upload of its raw evidence. The new source, all formal raw records and supplement remain inside the local ZIP until a separate verified upload. 36 frozen tests and 8 later supplement tests each passed regular and optimized mode, without doubling test count. Formal sources were not edited to fix the duplicated-observer-channel validation gap. Four extra live-restoration coverage records are not new independent worlds. This update neither changes R37/R41, nor starts R43, a workflow, a pull request, or a merge."
+}
