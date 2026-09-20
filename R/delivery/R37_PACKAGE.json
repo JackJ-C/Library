@@ -1,0 +1,17 @@
+{
+  "stage": "R37",
+  "repository": "JackJ-C/Library",
+  "branch": "R",
+  "write_scope": "R/",
+  "publication_baseline_R": "9a9dd182e6abdd3a05be83a357d79a5ea46cc396",
+  "unchanged_main_baseline": "15dd68540c17753b6faf2c26f6278d314037fe0b",
+  "archive_filename": "Library_R37_因果空间完整交付_20260920.zip",
+  "archive_bytes": 53830285,
+  "archive_sha256": "ad1ab26576092953641321b8872a2af4379b76987ca4418efd6b6aecbace8363",
+  "archive_members": 686,
+  "archive_crc_check": "PASS",
+  "archive_all_paths_under_R": true,
+  "local_delivery_status": "AVAILABLE_AND_INTEGRITY_CHECKED",
+  "archive_remote_status": "NOT_UPLOADED_BY_THIS_REGISTRATION",
+  "note": "This registration describes the existing local R37 delivery. It is not evidence that the ZIP, all source files or all experimental records have been uploaded. The local report preserves the earlier blocked publication attempt as history. This operation adds only this metadata file; it does not run research, change frozen sources, start R38, create a pull request or merge into main."
+}
