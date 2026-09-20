@@ -1,0 +1,35 @@
+{
+  "status": "POST_HOC_DESCRIPTIVE_NOT_CAUSAL_ATTRIBUTION",
+  "counts": {
+    "atom_pair_comparisons": 16128,
+    "positive_rho": 12123,
+    "positive_rho_is_quarter": 12123,
+    "categorical_strictly_dominates_loss": 12123
+  },
+  "mean_local_candidate_classes_of_eight": 5.026041666666667,
+  "primary_engine_counts": {
+    "proposal_allocation_ast_ops": 907295,
+    "proposal_intervention_cache_hits": 4608,
+    "proposal_intervention_requests": 10752,
+    "proposal_interventions_executed": 6144,
+    "proposal_loss_requests": 73728,
+    "proposal_simulated_queries": 70229,
+    "proposal_simulated_query_price": 335616,
+    "proposal_task_ast_ops": 5338031,
+    "proposal_task_cache_hits": 65528,
+    "proposal_task_feature_ops": 5991960,
+    "proposal_task_loss_requests": 86016,
+    "adoption_allocation_ast_ops": 105120,
+    "adoption_intervention_cache_hits": 584,
+    "adoption_intervention_requests": 1536,
+    "adoption_interventions_executed": 952,
+    "adoption_loss_requests": 11424,
+    "adoption_simulated_queries": 36153,
+    "adoption_simulated_query_price": 167177,
+    "adoption_task_ast_ops": 2758995,
+    "adoption_task_cache_hits": 2613,
+    "adoption_task_feature_ops": 3089843,
+    "adoption_task_loss_requests": 13328
+  },
+  "interpretation": "In these recorded cases the categorical floor may dominate fine loss differences; this does not alone establish the cause of absent performance advantage."
+}

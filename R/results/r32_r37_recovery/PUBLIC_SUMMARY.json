@@ -1,0 +1,700 @@
+{
+  "stage": "R37_RECOVERY_CLOSURE",
+  "scope": "conditional finite interventional response space; not open-world RSI or consciousness",
+  "batches": {
+    "A": {
+      "methods": {
+        "legacy": {
+          "trajectories": 16,
+          "mean_test_loss": 0.08314646026234568,
+          "mean_recursive_gain": 0.0,
+          "quotient_class_counts": {
+            "9": 14,
+            "8": 2
+          },
+          "all_controls_correct": true,
+          "all_pressure_pass": true,
+          "graph_equal_trajectories": 16,
+          "updates": 9,
+          "strict_links": 0,
+          "regressions": 4,
+          "metric_permutation_changes": 176,
+          "proposal_permutation_changes": 0,
+          "finite_exact_certificates": 0,
+          "primary_model_interventions": 3560,
+          "primary_model_queries": 52194
+        },
+        "measured": {
+          "trajectories": 16,
+          "mean_test_loss": 0.08382161458333333,
+          "mean_recursive_gain": -0.00011574074074074073,
+          "quotient_class_counts": {
+            "9": 14,
+            "8": 2
+          },
+          "all_controls_correct": true,
+          "all_pressure_pass": true,
+          "graph_equal_trajectories": 16,
+          "updates": 8,
+          "strict_links": 0,
+          "regressions": 4,
+          "metric_permutation_changes": 0,
+          "proposal_permutation_changes": 0,
+          "finite_exact_certificates": 0,
+          "primary_model_interventions": 3548,
+          "primary_model_queries": 52938
+        },
+        "raw": {
+          "trajectories": 16,
+          "mean_test_loss": 0.08329113618827161,
+          "mean_recursive_gain": 5.78703703703701e-05,
+          "quotient_class_counts": {
+            "9": 14,
+            "8": 2
+          },
+          "all_controls_correct": true,
+          "all_pressure_pass": true,
+          "graph_equal_trajectories": 9,
+          "updates": 7,
+          "strict_links": 0,
+          "regressions": 4,
+          "metric_permutation_changes": 0,
+          "proposal_permutation_changes": 0,
+          "finite_exact_certificates": 0,
+          "primary_model_interventions": 3532,
+          "primary_model_queries": 52287
+        },
+        "frozen": {
+          "trajectories": 16,
+          "mean_test_loss": 0.08380353009259259,
+          "mean_recursive_gain": 0.0,
+          "quotient_class_counts": {
+            "9": 14,
+            "8": 2
+          },
+          "all_controls_correct": true,
+          "all_pressure_pass": true,
+          "graph_equal_trajectories": 16,
+          "updates": 8,
+          "strict_links": 0,
+          "regressions": 4,
+          "metric_permutation_changes": 0,
+          "proposal_permutation_changes": 0,
+          "finite_exact_certificates": 0,
+          "primary_model_interventions": 3540,
+          "primary_model_queries": 53247
+        },
+        "certified": {
+          "trajectories": 16,
+          "mean_test_loss": 0.08321277006172839,
+          "mean_recursive_gain": 0.0,
+          "quotient_class_counts": {
+            "9": 14,
+            "8": 2
+          },
+          "all_controls_correct": true,
+          "all_pressure_pass": true,
+          "graph_equal_trajectories": 16,
+          "updates": 10,
+          "strict_links": 0,
+          "regressions": 6,
+          "metric_permutation_changes": 0,
+          "proposal_permutation_changes": 0,
+          "finite_exact_certificates": 96,
+          "primary_model_interventions": 4749,
+          "primary_model_queries": 55290
+        },
+        "plain": {
+          "trajectories": 16,
+          "mean_test_loss": 0.08382161458333333,
+          "mean_recursive_gain": -0.00011574074074074073,
+          "quotient_class_counts": {
+            "9": 14,
+            "8": 2
+          },
+          "all_controls_correct": true,
+          "all_pressure_pass": true,
+          "graph_equal_trajectories": 16,
+          "updates": 8,
+          "strict_links": 0,
+          "regressions": 4,
+          "metric_permutation_changes": 0,
+          "proposal_permutation_changes": 0,
+          "finite_exact_certificates": 0,
+          "primary_model_interventions": 3548,
+          "primary_model_queries": 52938
+        }
+      },
+      "paired_contrasts": {
+        "legacy": {
+          "positive_means_measured_better": true,
+          "mean": -0.000675154320987653,
+          "descriptive_95_bootstrap": [
+            -0.001965181327160492,
+            0.0003074363425925944
+          ],
+          "paired_seed_differences": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            -0.0012538580246913567,
+            0.0,
+            0.0,
+            -0.008101851851851846,
+            0.0,
+            -0.0049189814814814825,
+            0.0007716049382716084,
+            0.0,
+            0.0,
+            0.0027006172839506293,
+            0.0,
+            0.0
+          ]
+        },
+        "raw": {
+          "positive_means_measured_better": true,
+          "mean": -0.0005304783950617273,
+          "descriptive_95_bootstrap": [
+            -0.001555266203703701,
+            0.0
+          ],
+          "paired_seed_differences": [
+            -0.0001929012345679021,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            -0.008101851851851846,
+            0.0,
+            0.0,
+            -0.0001929012345678882,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "frozen": {
+          "positive_means_measured_better": true,
+          "mean": -1.8084490740740387e-05,
+          "descriptive_95_bootstrap": [
+            -5.425347222222116e-05,
+            0.0
+          ],
+          "paired_seed_differences": [
+            -0.0002893518518518462,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "certified": {
+          "positive_means_measured_better": true,
+          "mean": -0.0006088445216049379,
+          "descriptive_95_bootstrap": [
+            -0.0019470968364197518,
+            0.00043402777777777797
+          ],
+          "paired_seed_differences": [
+            -0.0001929012345679021,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.00347222222222221,
+            0.0,
+            -0.008101851851851846,
+            0.0,
+            -0.0049189814814814825,
+            -0.0011574074074073987,
+            0.0,
+            0.0,
+            0.0,
+            0.0011574074074074125,
+            0.0
+          ]
+        },
+        "plain": {
+          "positive_means_measured_better": true,
+          "mean": 0.0,
+          "descriptive_95_bootstrap": [
+            0.0,
+            0.0
+          ],
+          "paired_seed_differences": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "matched_shadow_diagnostics": {
+        "graph": {
+          "proposal_changed": 0,
+          "equal": 96
+        },
+        "raw": {
+          "proposal_changed": 11,
+          "equal": 93,
+          "measured_better": 2,
+          "measured_worse": 1
+        },
+        "collapsed": {
+          "proposal_changed": 11,
+          "equal": 93,
+          "measured_better": 2,
+          "measured_worse": 1
+        },
+        "shuffled": {
+          "proposal_changed": 15,
+          "equal": 90,
+          "measured_better": 3,
+          "measured_worse": 3
+        },
+        "previous": {
+          "proposal_changed": 2,
+          "equal": 95,
+          "measured_worse": 1
+        },
+        "initial": {
+          "proposal_changed": 2,
+          "equal": 94,
+          "measured_worse": 2
+        }
+      },
+      "measured_adoption_outcomes": {
+        "better": 3,
+        "worse": 4,
+        "tie": 1
+      },
+      "paired_checks": {
+        "strict_chain_trajectories": 0,
+        "any_strict_link_trajectories": 0,
+        "plain_semantic_matches": 16
+      },
+      "atlas_overlap_status": {
+        "CONTEXT_MISMATCH": 80
+      },
+      "certified_query_counts": {
+        "sum": 4209,
+        "min": 29,
+        "max": 48
+      },
+      "recursive_gain_95_bootstrap": [
+        -0.0003472222222222222,
+        0.0
+      ],
+      "gates": {
+        "H1_representation": true,
+        "H2_finite_closure_execution": true,
+        "H5_task_advantage": false,
+        "H6_stable_recursion": false
+      }
+    },
+    "B": {
+      "methods": {
+        "legacy": {
+          "trajectories": 16,
+          "mean_test_loss": 0.08449676890432099,
+          "mean_recursive_gain": 0.0,
+          "quotient_class_counts": {
+            "9": 12,
+            "8": 4
+          },
+          "all_controls_correct": true,
+          "all_pressure_pass": true,
+          "graph_equal_trajectories": 16,
+          "updates": 1,
+          "strict_links": 0,
+          "regressions": 0,
+          "metric_permutation_changes": 181,
+          "proposal_permutation_changes": 4,
+          "finite_exact_certificates": 0,
+          "primary_model_interventions": 3532,
+          "primary_model_queries": 52855
+        },
+        "measured": {
+          "trajectories": 16,
+          "mean_test_loss": 0.08480420524691358,
+          "mean_recursive_gain": 0.0,
+          "quotient_class_counts": {
+            "9": 12,
+            "8": 4
+          },
+          "all_controls_correct": true,
+          "all_pressure_pass": true,
+          "graph_equal_trajectories": 16,
+          "updates": 2,
+          "strict_links": 0,
+          "regressions": 1,
+          "metric_permutation_changes": 0,
+          "proposal_permutation_changes": 0,
+          "finite_exact_certificates": 0,
+          "primary_model_interventions": 3548,
+          "primary_model_queries": 53444
+        },
+        "raw": {
+          "trajectories": 16,
+          "mean_test_loss": 0.08449676890432099,
+          "mean_recursive_gain": 9.403935185185192e-05,
+          "quotient_class_counts": {
+            "9": 12,
+            "8": 4
+          },
+          "all_controls_correct": true,
+          "all_pressure_pass": true,
+          "graph_equal_trajectories": 11,
+          "updates": 1,
+          "strict_links": 0,
+          "regressions": 0,
+          "metric_permutation_changes": 0,
+          "proposal_permutation_changes": 0,
+          "finite_exact_certificates": 0,
+          "primary_model_interventions": 3544,
+          "primary_model_queries": 52283
+        },
+        "frozen": {
+          "trajectories": 16,
+          "mean_test_loss": 0.08480420524691358,
+          "mean_recursive_gain": 0.0,
+          "quotient_class_counts": {
+            "9": 12,
+            "8": 4
+          },
+          "all_controls_correct": true,
+          "all_pressure_pass": true,
+          "graph_equal_trajectories": 16,
+          "updates": 2,
+          "strict_links": 0,
+          "regressions": 1,
+          "metric_permutation_changes": 0,
+          "proposal_permutation_changes": 0,
+          "finite_exact_certificates": 0,
+          "primary_model_interventions": 3552,
+          "primary_model_queries": 53621
+        },
+        "certified": {
+          "trajectories": 16,
+          "mean_test_loss": 0.0850513599537037,
+          "mean_recursive_gain": 0.0,
+          "quotient_class_counts": {
+            "9": 12,
+            "8": 4
+          },
+          "all_controls_correct": true,
+          "all_pressure_pass": true,
+          "graph_equal_trajectories": 16,
+          "updates": 7,
+          "strict_links": 0,
+          "regressions": 3,
+          "metric_permutation_changes": 0,
+          "proposal_permutation_changes": 0,
+          "finite_exact_certificates": 96,
+          "primary_model_interventions": 4759,
+          "primary_model_queries": 55864
+        },
+        "plain": {
+          "trajectories": 16,
+          "mean_test_loss": 0.08480420524691358,
+          "mean_recursive_gain": 0.0,
+          "quotient_class_counts": {
+            "9": 12,
+            "8": 4
+          },
+          "all_controls_correct": true,
+          "all_pressure_pass": true,
+          "graph_equal_trajectories": 16,
+          "updates": 2,
+          "strict_links": 0,
+          "regressions": 1,
+          "metric_permutation_changes": 0,
+          "proposal_permutation_changes": 0,
+          "finite_exact_certificates": 0,
+          "primary_model_interventions": 3548,
+          "primary_model_queries": 53444
+        }
+      },
+      "paired_contrasts": {
+        "legacy": {
+          "positive_means_measured_better": true,
+          "mean": -0.00030743634259259266,
+          "descriptive_95_bootstrap": [
+            -0.000922309027777778,
+            0.0
+          ],
+          "paired_seed_differences": [
+            0.0,
+            0.0,
+            0.0,
+            -0.0049189814814814825,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "raw": {
+          "positive_means_measured_better": true,
+          "mean": -0.00030743634259259266,
+          "descriptive_95_bootstrap": [
+            -0.000922309027777778,
+            0.0
+          ],
+          "paired_seed_differences": [
+            0.0,
+            0.0,
+            0.0,
+            -0.0049189814814814825,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "frozen": {
+          "positive_means_measured_better": true,
+          "mean": 0.0,
+          "descriptive_95_bootstrap": [
+            0.0,
+            0.0
+          ],
+          "paired_seed_differences": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "certified": {
+          "positive_means_measured_better": true,
+          "mean": 0.0002471547067901224,
+          "descriptive_95_bootstrap": [
+            -0.00030140817901234615,
+            0.0009042245370370341
+          ],
+          "paired_seed_differences": [
+            0.0003858024691357903,
+            0.0,
+            0.0,
+            -0.002411265432098769,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.002218364197530867,
+            0.0,
+            0.0,
+            0.0,
+            0.00376157407407407,
+            0.0
+          ]
+        },
+        "plain": {
+          "positive_means_measured_better": true,
+          "mean": 0.0,
+          "descriptive_95_bootstrap": [
+            0.0,
+            0.0
+          ],
+          "paired_seed_differences": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "matched_shadow_diagnostics": {
+        "graph": {
+          "proposal_changed": 0,
+          "equal": 96
+        },
+        "raw": {
+          "proposal_changed": 7,
+          "equal": 95,
+          "measured_worse": 1
+        },
+        "collapsed": {
+          "proposal_changed": 7,
+          "equal": 95,
+          "measured_worse": 1
+        },
+        "shuffled": {
+          "proposal_changed": 9,
+          "equal": 95,
+          "measured_worse": 1
+        },
+        "previous": {
+          "proposal_changed": 0,
+          "equal": 96
+        },
+        "initial": {
+          "proposal_changed": 1,
+          "equal": 96
+        }
+      },
+      "measured_adoption_outcomes": {
+        "worse": 1,
+        "better": 1
+      },
+      "paired_checks": {
+        "strict_chain_trajectories": 0,
+        "any_strict_link_trajectories": 0,
+        "plain_semantic_matches": 16
+      },
+      "atlas_overlap_status": {
+        "CONTEXT_MISMATCH": 80
+      },
+      "certified_query_counts": {
+        "sum": 4203,
+        "min": 28,
+        "max": 48
+      },
+      "recursive_gain_95_bootstrap": [
+        0.0,
+        0.0
+      ],
+      "gates": {
+        "H1_representation": true,
+        "H2_finite_closure_execution": true,
+        "H5_task_advantage": false,
+        "H6_stable_recursion": false
+      }
+    }
+  },
+  "totals": {
+    "episodes": 192,
+    "generations": 1152,
+    "raw_bytes": 1331184778,
+    "xz_bytes": 52493348,
+    "initial_cells_executed": 921984,
+    "recovery_cells_executed": 192,
+    "goal_moves": 1344,
+    "all_pressure_pass": 192,
+    "controls_pass": 192,
+    "sequence_words": 2151296,
+    "sequence_transitions": 4302592,
+    "sequence_metrics_pass": 32
+  },
+  "historical_A_comparison": {
+    "legacy": {
+      "mean_loss_abs_difference": 0.0,
+      "updates_match": true,
+      "regressions_match": true,
+      "permutation_changes_match": true,
+      "aggregate_match": true
+    },
+    "measured": {
+      "mean_loss_abs_difference": 0.0,
+      "updates_match": true,
+      "regressions_match": true,
+      "permutation_changes_match": true,
+      "aggregate_match": true
+    },
+    "raw": {
+      "mean_loss_abs_difference": 0.0,
+      "updates_match": true,
+      "regressions_match": true,
+      "permutation_changes_match": true,
+      "aggregate_match": true
+    },
+    "frozen": {
+      "mean_loss_abs_difference": 0.0,
+      "updates_match": true,
+      "regressions_match": true,
+      "permutation_changes_match": true,
+      "aggregate_match": true
+    },
+    "certified": {
+      "mean_loss_abs_difference": 0.0,
+      "updates_match": true,
+      "regressions_match": true,
+      "permutation_changes_match": true,
+      "aggregate_match": true
+    },
+    "plain": {
+      "mean_loss_abs_difference": 0.0,
+      "updates_match": true,
+      "regressions_match": true,
+      "permutation_changes_match": true,
+      "aggregate_match": true
+    }
+  },
+  "old_A_raw_byte_identity": "NOT_TESTABLE_ORIGINAL_RAW_ARCHIVES_UNAVAILABLE",
+  "new_raw_archives": 192,
+  "old_18_file_freeze_complete": false,
+  "source_code_changed": false,
+  "independent_units": "16 paired seeds per batch, not 192 independent worlds or millions of independent words",
+  "statistical_scope": "fixed synthetic mechanism family, descriptive small-sample bootstrap; no natural-world generalization claim"
+}

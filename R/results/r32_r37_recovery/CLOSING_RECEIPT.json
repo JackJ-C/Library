@@ -1,0 +1,18 @@
+{
+  "completed_utc": "2026-09-20T07:53:49.450799+00:00",
+  "first_formal_trajectory_started_utc": "2026-09-20T07:16:50.455556+00:00",
+  "last_formal_trajectory_finished_utc": "2026-09-20T07:43:13.559093+00:00",
+  "formal_archives": 192,
+  "formal_receipts": 192,
+  "independent_verification_receipts": 192,
+  "formal_learner_failures": 0,
+  "foreground_tool_timeouts": 1,
+  "all_original_execution_sources_and_recovery_frozen_files_still_match": true,
+  "recovery_frozen_sha256": "70737f516271cb77132d572cbd2b48f0eaf8bfc378375cfe7266d07bcdfb9f3d",
+  "normal_tests": 61,
+  "optimized_tests": 61,
+  "distinct_tests_not_sum_of_configurations": 61,
+  "remote_published": false,
+  "remote_R_last_verified": "9a9dd182e6abdd3a05be83a357d79a5ea46cc396",
+  "remote_main_last_verified": "15dd68540c17753b6faf2c26f6278d314037fe0b"
+}

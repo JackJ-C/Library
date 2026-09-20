@@ -1,0 +1,37 @@
+{
+  "stage": "R37",
+  "research_and_local_delivery_complete": true,
+  "remote_publication_complete": false,
+  "remote_write_result": "blocked_by_tool_safety_check_no_bypass",
+  "R_HEAD_last_verified": "9a9dd182e6abdd3a05be83a357d79a5ea46cc396",
+  "main_HEAD_last_verified": "15dd68540c17753b6faf2c26f6278d314037fe0b",
+  "original_executable_sources_exact": 12,
+  "original_frozen_files_missing": 6,
+  "original_full_freeze_restored": false,
+  "formal_trajectories": 192,
+  "formal_generations": 1152,
+  "independent_units_per_batch": 16,
+  "separate_new_tests": 61,
+  "tests_configurations": [
+    "normal",
+    "python -O"
+  ],
+  "validated_sequence_streams": 32,
+  "validated_new_raw_archives": 192,
+  "H1_representation": true,
+  "H2_conditional_sequential_closure": true,
+  "H3_guard_and_sequence_metric_scoped": true,
+  "H4_finite_bank_certificates": true,
+  "H5_stable_task_advantage": false,
+  "H6_stable_RSI": false,
+  "consciousness": "NOT_MEASURED",
+  "open_world_causal_identification": "NOT_CLAIMED",
+  "complete_scope_assumptions": [
+    "finite complete state-action table",
+    "stationary deterministic Markov world",
+    "valid calibration and trusted effect observations",
+    "identity emitter and declared reset capability"
+  ],
+  "recovery_frozen_sha256": "70737f516271cb77132d572cbd2b48f0eaf8bfc378375cfe7266d07bcdfb9f3d",
+  "created_utc": "2026-09-20T07:50:42.917390+00:00"
+}
