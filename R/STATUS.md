@@ -1,3 +1,23 @@
+# R系当前状态：R37研究已完成，文本与源码已发布，完整原档包待上传
+
+## 最新发布记录（2026-09-20）
+
+本次正常GitHub重试写入成功，R分支已从`9a9dd182e6abdd3a05be83a357d79a5ea46cc396`推进。已有R37研究结果没有重跑或修改；只发布原材料、核对字节身份并更新导航。
+
+当前阅读入口：[R37研究报告](R37_HANDOFF.md)、[理论与证明](r32_r37/recovery/THEORY_RECOVERY.md)、[闭式商补充定理](r32_r37/recovery/FAMILY_THEOREM_SUPPLEMENT.md)、[恢复协议](r32_r37/recovery/PROTOCOL_RECOVERY.md)、[A/B结果摘要](results/r32_r37_recovery/PUBLIC_SUMMARY.json)、[分项验收](results/r32_r37_recovery/R37_ACCEPTANCE.json)。发布范围以[当前发布说明](delivery/R37_PUBLICATION.md)、[逐文件发布清单](delivery/R37_PUBLICATION_MANIFEST.json)和[完整包登记](delivery/R37_PACKAGE.json)为准。
+
+**已发布：** 原包23份文本/源码，包含研究报告、本地历史状态、17份恢复理论/协议/源码/测试/核验及来源文件、4份结果汇总与验收诊断。其完整Git blob均与本地交付包逐项一致；上述内容在`0c94e9ba67cf70a52e3345d9816940f3b5eab295`及其祖先提交已可读取。
+
+**尚未发布：** 53,830,285字节完整ZIP和其中192份正式原始XZ、逐轨迹回执、开发数据及其余完整审查材料。原ZIP共686项、CRC通过，SHA-256为`ad1ab26576092953641321b8872a2af4379b76987ca4418efd6b6aecbace8363`。仅克隆当前R分支不能替代完整证据包；源码中的原档核验和依赖开发数据的测试仍需要相应数据。没有把“上传报告”冒称“上传全部原档”。
+
+原报告、恢复README、验收回执和STATUS_R37_LOCAL.md中的“未成功写入”等原文保留为上轮历史，当前发布状态由本节说明。原缺失的六份旧冻结材料仍没有冒充恢复，新材料位于独立recovery目录。研究结论保持：有限条件下的因果响应空间、顺序闭合与撤销恢复完成；稳定任务优势及稳定RSI未建立，主观体验未测量。研究编号止于R37，不启动R38。
+
+本次只写JackJ-C/Library的R分支R/内；不改M、main、根README、旧冻结程序或旧原档，不建PR、不合并、不强推、不主动启动工作流。下一接手点仅为归档完整ZIP并核验，不是重新做R32—R37。下方R31状态全文保留，属于历史阶段，不再作为当前编号上限。
+
+---
+
+## 以下为原R31状态全文（历史保留）
+
 # R系当前状态：R31正式交付、补充资料及完整备份已归档
 
 统一入口：[R31_HANDOFF.md](R31_HANDOFF.md)。正式报告：[R28—R31完整报告](docs/R28_R31_REPORT.md)；正式摘要：[PUBLIC_SUMMARY.json](results/r28_r31/PUBLIC_SUMMARY.json)；逐轨迹成绩：[TRAJECTORY_SCORES.tsv](results/r28_r31/TRAJECTORY_SCORES.tsv)；原档清单：[ARCHIVE_MANIFEST.tsv](results/r28_r31/ARCHIVE_MANIFEST.tsv)。

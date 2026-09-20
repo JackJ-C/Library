@@ -12,6 +12,13 @@
   "archive_crc_check": "PASS",
   "archive_all_paths_under_R": true,
   "local_delivery_status": "AVAILABLE_AND_INTEGRITY_CHECKED",
-  "archive_remote_status": "NOT_UPLOADED_BY_THIS_REGISTRATION",
-  "note": "This registration describes the existing local R37 delivery. It is not evidence that the ZIP, all source files or all experimental records have been uploaded. The local report preserves the earlier blocked publication attempt as history. This operation adds only this metadata file; it does not run research, change frozen sources, start R38, create a pull request or merge into main."
+  "archive_remote_status": "NOT_UPLOADED",
+  "publication_status": "ORIGINAL_TEXT_SOURCE_AND_SUMMARY_SUBSET_PUBLISHED",
+  "verified_original_file_count": 23,
+  "verified_original_content_commit": "0c94e9ba67cf70a52e3345d9816940f3b5eab295",
+  "publication_manifest": "R/delivery/R37_PUBLICATION_MANIFEST.json",
+  "publication_notes": "R/delivery/R37_PUBLICATION.md",
+  "formal_raw_archives_uploaded_this_publication": 0,
+  "historical_registration_commit": "001b240d89f565df9b82d311206f49f931588c07",
+  "note": "The original 23 text/source/summary files have been published and their full Git blob hashes match the local archive. The complete ZIP and original raw experimental artifacts have NOT been uploaded. Historical no-write statements inside original research documents are preserved unchanged and superseded only for publication status by the separate current notes. No experiments, frozen-source changes, R38, pull requests or main merges were performed during publication."
 }
